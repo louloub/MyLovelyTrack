@@ -18,4 +18,35 @@ a:hover {
     text-decoration: underline;
 }
 
+/* start Footer Lisa-Lou */
+
+footer {
+    background-color: grey;
+}
+
+a {
+  padding: 0.3rem;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* End Footer Lisa-Lou */
+
+
+
 
