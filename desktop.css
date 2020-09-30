@@ -79,3 +79,26 @@ h2 {
 }
 
 /*Jess*/
+
+/* Start Footer Lisa-Lou */
+
+@media only screen and (min-width: 1025px) {
+    #logos-footer { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      #elements-footer-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #elements-footer-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+  }
+  }
+
+  /* End Footer Lisa-Lou */
