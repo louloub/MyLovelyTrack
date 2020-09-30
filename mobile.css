@@ -1,5 +1,6 @@
 @media screen and (max-width: 1024px){
 
+<<<<<<< HEAD
 .menu {
     display: none;
     flex-basis: 100%;
@@ -79,3 +80,74 @@ footer {
 }
 
   /*Jess*/
+=======
+    .menu {
+        display: none;
+        flex-basis: 100%;
+    }
+    
+    .menu-checkbox:checked ~.menu { /* le tilde= je selectionne .menu uniquement si les voisins checkbox sont au meme niveau*/
+        display: block;     /* je montre mon menu si les autres sont au meme niveau (si la condition est remplie: ~.menu*/
+    }                       /* Je montre le menu si le checkbox est validé */
+    
+    .menu-checkbox{
+        display: none
+    }
+    
+    .nav-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+    
+    .logo{
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    li{
+        padding: 0.7rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    h1{
+        font-size: 2rem;
+    }
+    
+    .menu-checkbox h1{
+        display: none;
+    }
+    
+    
+    }
+    
+    /* Start Footer Lisa-Lou */
+    footer {
+        background-color: lightgrey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+    
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+    
+    .links-container > a {
+        margin-bottom: 0.4rem;
+    }
+    
+    .logos-container {
+        display: flex;
+        align-items: center;
+    }
+    
+      /* End Footer Lisa-Lou */
+    
+>>>>>>> dcd0f92c24b6ef33da8f6b7e192a93a5360b7877
