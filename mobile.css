@@ -68,3 +68,14 @@ footer {
 }
 
   /* End Footer Lisa-Lou */
+
+  /*Jess*/
+
+}
+.bloc-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+  /*Jess*/
