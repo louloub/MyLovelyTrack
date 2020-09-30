@@ -11,16 +11,15 @@ nav{
 a{
     text-decoration:none;
     color: black;
-    
 }
 
 a:hover {
     text-decoration: underline;
-}
+}    
 
 /* start Footer Lisa-Lou */
 
-a {
+a{
   padding: 0.3rem;
   color: black;
 }
@@ -42,7 +41,3 @@ a:active {
 }
 
 /* End Footer Lisa-Lou */
-
-
-
-
