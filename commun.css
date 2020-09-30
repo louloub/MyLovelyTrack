@@ -1,3 +1,5 @@
+/*Flav*/
+
 body{
     font-family: 'Lusitana', serif;
     font-size: 1.1rem;
@@ -14,8 +16,34 @@ a{
     
 }
 
-a:hover {
+.contactLayout{
+    text-align: center;
+}
+
+form{
+    padding: 20px 0;
+}
+
+.elementForm{
+    padding: 10px;
+}
+
+input{
+    width: 70%;
+    height: 25px;
+}
+
+textarea{
+    width: 70%;
+    height: 100px;
+}
+
+.elementForm  p{
+    margin-bottom: 5px;
+}
+
+.menu a:hover{
     text-decoration: underline;
 }
 
-
+/*Flav*/
