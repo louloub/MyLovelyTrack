@@ -1,26 +1,8 @@
-body{
-    font-family: 'Lusitana', serif;
-    font-size: 1.1rem;
-}
 
-nav{
-    padding: 1rem;
-    text-align: center;
-}
-
-a{
-    text-decoration:none;
-    color: black;
-    
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 /* start Footer Lisa-Lou */
 
-a {
+a{
   padding: 0.3rem;
   color: black;
 }
@@ -44,5 +26,51 @@ a:active {
 /* End Footer Lisa-Lou */
 
 
+/*Flav*/
 
+body{
+    font-family: 'Lusitana', serif;
+    font-size: 1.1rem;
+}
 
+nav{
+    padding: 1rem;
+    text-align: center;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+.contactLayout{
+    text-align: center;
+}
+
+form{
+    padding: 20px 0;
+}
+
+.elementForm{
+    padding: 10px;
+}
+
+input{
+    width: 70%;
+    height: 25px;
+}
+
+textarea{
+    width: 70%;
+    height: 100px;
+}
+
+.elementForm  p{
+    margin-bottom: 5px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+/*Flav*/
