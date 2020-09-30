@@ -1,104 +1,92 @@
-
 /*Flav*/
 
-@media screen and (min-width: 1024px){
-
-.menu-checkbox:checked ~.menu { /* le tilde= je selectionne .menu uniquement si les voisins checkbox sont au meme niveau*/
-    display: block;     /* je montre mon menu si les autres sont au meme niveau (si la condition est remplie: ~.menu*/
-} 
-
-.menu-checkbox{
-    display: none;
-}
-
-.menu-toggle{
-    display: none;
-}
-
-.logo{
-    display: none;
-}
-
-h1{
-    font-size: 2rem;
-    margin: 1rem;
-}
-
-.nav-wrapper{
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-ul{
-    display: flex;
-    justify-content: center;
-}
-
-li{
-    padding: 1rem;
-    font-size: 1.2;
-}
-
-#TitleRemove{
-    display: none;
-}
-/*Flav*/    
-
-
-/*Jess*/
-
-.cover {
-    width: 200px;
-}
-.bloc-container {
-    display: grid;
-    text-align: center;
-  }
-
-.element-1 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-.element-2 {
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-
-.element-3 {
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-    
-div {
-    align-self: center;
-}
-
-h2 {
-    font-size: 2em;
+@media screen and (min-width: 1024px) {
+    .menu-checkbox:checked~.menu {
+        /* le tilde= je selectionne .menu uniquement si les voisins checkbox sont au meme niveau*/
+        display: block;
+        /* je montre mon menu si les autres sont au meme niveau (si la condition est remplie: ~.menu*/
+    }
+    .menu-checkbox {
+        display: none;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    h1 {
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .nav-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+    li {
+        padding: 1rem;
+        font-size: 1.2;
+    }
+    #TitleRemove {
+        display: none;
+    }
+    /*Flav*/
+    /*Jess*/
+    .cover {
+        width: 200px;
+    }
+    .bloc-container {
+        display: grid;
+        text-align: center;
+    }
+    .element-1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .element-2 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .element-3 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    div {
+        align-self: center;
+    }
+    h2 {
+        font-size: 2em;
+    }
 }
 
 /*Jess*/
 
 /* Start Footer Lisa-Lou */
 
-@media only screen and (min-width: 1025px) {
-    #logos-footer { 
+@media only screen and (min-width: 420px) {
+    footer {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-      }
-      #elements-footer-1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
     }
-
-    #elements-footer-2 {
+    .links-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-  }
-  }
+        align-items: center;
+        padding: 1.5rem;
+    }
+    .links-container>a {
+        margin-right: 0.4rem;
+        margin-bottom: 0;
+    }
+    .logos-container {
+        display: flex;
+        align-items: center;
+    }
+}
 
-  /* End Footer Lisa-Lou */
+/* End Footer Lisa-Lou */
