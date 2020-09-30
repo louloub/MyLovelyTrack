@@ -1,7 +1,55 @@
+
+/*Flav*/
+
+@media screen and (min-width: 1024px){
+
+.menu-checkbox:checked ~.menu { /* le tilde= je selectionne .menu uniquement si les voisins checkbox sont au meme niveau*/
+    display: block;     /* je montre mon menu si les autres sont au meme niveau (si la condition est remplie: ~.menu*/
+} 
+
+.menu-checkbox{
+    display: none;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.logo{
+    display: none;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.nav-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    padding: 1rem;
+    font-size: 1.2;
+}
+
+#TitleRemove{
+    display: none;
+}
+/*Flav*/    
+
+
+/*Jess*/
+
 .cover {
     width: 200px;
 }
-
 .bloc-container {
     display: grid;
     text-align: center;
@@ -29,3 +77,5 @@ div {
 h2 {
     font-size: 2em;
 }
+
+/*Jess*/
