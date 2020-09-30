@@ -1,4 +1,3 @@
-
 /*Flav*/
 
 @media screen and (min-width: 1024px){
@@ -82,23 +81,26 @@ h2 {
 
 /* Start Footer Lisa-Lou */
 
-@media only screen and (min-width: 1025px) {
-    #logos-footer { 
+@media only screen and (min-width: 420px) {
+    footer {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-      }
-      #elements-footer-1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
     }
-
-    #elements-footer-2 {
+    .links-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-  }
-  }
+        align-items: center;
+        padding: 1.5rem;
+    }
+    .links-container>a {
+        margin-right: 0.4rem;
+        margin-bottom: 0;
+    }
+    .logos-container {
+        display: flex;
+        align-items: center;
+    }
+}
 
-  /* End Footer Lisa-Lou */
+/* End Footer Lisa-Lou */
