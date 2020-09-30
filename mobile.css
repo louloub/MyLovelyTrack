@@ -43,30 +43,28 @@ h1{
 }
 
 /* Start Footer Lisa-Lou */
-@media only screen and (min-width: 320px) { 
+footer {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
 
-    #footer {
-      padding: 1rem;  
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
 
-    #elements-footer-1 {
-        display: flex;
-        flex-direction: column;
-    }
+.links-container > a {
+    margin-bottom: 0.4rem;
+}
 
-    #elements-footer-2 {
-        display: flex;
-        flex-direction: column;
+.logos-container {
+    display: flex;
+    align-items: center;
+}
 
-    }
-    
-    #logos-footer {
-        display: flex;
-        flex-direction: column;
-
-    }
-  } 
   /* End Footer Lisa-Lou */
