@@ -81,7 +81,7 @@ h2 {
 
 /* Start Footer Lisa-Lou */
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 575px) {
     footer {
         display: flex;
         flex-direction: row;
