@@ -75,6 +75,12 @@ textarea{
     text-decoration: underline;
 }
 
+.contactLayout p{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /*Flav*/
 
 /* Start Harold */
