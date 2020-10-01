@@ -5,6 +5,7 @@ const navbarlistElement = document.getElementById('listDer');
 const navWrapperElement = document.getElementById('nav-wrapper');
 const newliElement = document.createElement('li');
 newliElement.innerHTML = "MyLovelyTrack";
+const searchLiElement = document.getElementById('searchLi');
 
 let burgerClose = true;
 
@@ -13,6 +14,7 @@ checkboxElement.addEventListener('click',function(){
     if (burgerClose){
         logoElement.remove();
         titleNavElement.remove();
+        searchLiElement.remove();
         const navbarlistElement = document.getElementById('listDer');
         let nextSibling = document.getElementById("firstLi");
         navbarlistElement.insertBefore(newliElement, nextSibling);

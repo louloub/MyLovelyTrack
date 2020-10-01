@@ -8,7 +8,7 @@
     }
     
     .menu-checkbox:checked ~.menu { /* le tilde= je selectionne .menu uniquement si les voisins checkbox sont au meme niveau*/
-        display: block;     /* je montre mon menu si les autres sont au meme niveau (si la condition est remplie: ~.menu*/
+        display: block;    /* je montre mon menu si les autres sont au meme niveau (si la condition est remplie: ~.menu*/
     }                       /* Je montre le menu si le checkbox est validé */
     
     .menu-checkbox{
