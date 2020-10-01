@@ -102,6 +102,10 @@ textarea{
     align-content: center;
 }
 
+.aboutusImg2 {
+    border-radius: 50%;
+}
+
 .textContent {
     flex-direction: column;
     padding: 25px;
