@@ -41,7 +41,7 @@ a{
     color: black;
 }
 
-.contactLayout{
+.contactLayout, .titleAboutUs{
     text-align: center;
 }
 
@@ -75,23 +75,37 @@ textarea{
 
 /* Start Harold */
 
-.aboutusBloc {
+.aboutusBloc, .us, .LisaLou, .Jessica, .Flavien, .Harold, .textContent {
     display: flex;
+    padding: 10px;
+}
+
+.aboutusBloc {
     flex-direction: column;
     width: 100%;
-    align-content: center;
 }
 
 .us {
-    display: flex;
     flex-direction: column;
     width: 70%;
     align-content: center;
 }
 
 .LisaLou {
-    display: flex;
-    background-color: DodgerBlue;
+}
+
+.aboutusImg {
+    align-content: center;
+}
+
+.textContent {
+    flex-direction: column;
+    padding: 25px;
+}
+
+.aboutUsName {
+    padding: 25px;
+    font-size: 25px;
 }
 
 /* End Harold */
