@@ -31,48 +31,69 @@ a:active {
 /*Flav*/
 
 body{
-    font-family: 'Lusitana', serif;
-    font-size: 1.1rem;
+  font-family: 'Lusitana', serif;
+  font-size: 1.1rem;
 }
 
 nav{
-    padding: 1rem;
-    text-align: center;
+  padding: 1rem 0 0 0;
+  text-align: center;
 }
 
 a{
-    text-decoration:none;
-    color: black;
+  text-decoration:none;
+  color: black;
 }
 
-.contactLayout, .titleAboutUs{
-    text-align: center;
+.contactLayout{
+  text-align: center;
 }
 
 form{
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .elementForm{
-    padding: 10px;
+  padding: 10px;
 }
 
 input{
-    width: 70%;
-    height: 25px;
+  width: 70%;
+  height: 25px;
 }
 
 textarea{
-    width: 70%;
-    height: 100px;
+  width: 70%;
+  height: 100px;
 }
 
 .elementForm  p{
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .menu a:hover{
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+
+form p{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: flex-start;
+}
+
+form .button{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: flex-end;
+}
+
+.contactLayout p{
+font-size: 1.1rem;
 }
 
 /*Flav*/
