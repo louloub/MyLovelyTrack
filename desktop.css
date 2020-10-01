@@ -41,12 +41,7 @@ li{
 #TitleRemove{
     display: none;
 }
-<<<<<<< HEAD
-}
-
-=======
 }  
->>>>>>> ac2de8ddaf816943942c845564694672e0fd129c
 /*Flav*/
 
 /*Jess*/
@@ -67,7 +62,7 @@ li{
     box-shadow: 10px 5px 5px black;
 }
 
-p {font-size: 0.8em;
+.small-description {font-size: 0.8em;
     display: flex;
     flex-wrap: nowrap;
 }
