@@ -16,6 +16,8 @@ checkboxElement.addEventListener('click',function(){
         navbarlistElement.insertBefore(newliElement, nextSibling);
         newliElement.style.fontSize = "2rem";
         burgerClose = false;
+        const newliElement = document.createElement('li');
+        newliElement.innerHTML = "MyLovelyTrack";
     }
     else{
         newliElement.remove();
