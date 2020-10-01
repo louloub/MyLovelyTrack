@@ -1,3 +1,5 @@
+/*Flav*/
+
 @media screen and (max-width: 1024px){
 
 .menu {
@@ -39,6 +41,9 @@ h1{
     display: none;
 }
 
+h2 {
+    font-size: 2em;
+}
 
 }
 
@@ -69,3 +74,13 @@ footer {
 }
 
   /* End Footer Lisa-Lou */
+
+  /*Jess*/
+
+.bloc-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+  /*Jess*/
