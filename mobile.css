@@ -45,20 +45,6 @@ h2 {
     font-size: 2em;
 }
 
-/* Start Harold */
-
-/* Bloc text pass under pics on mobile */
-.LisaLou, .Jessica, .Harold, .Flavien { 
-    flex-wrap: wrap;
-}
-
-.aboutusImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-/* End Harold */
-
 }
 
 /* Start Footer Lisa-Lou */
@@ -98,3 +84,12 @@ footer {
 }
 
   /*Jess*/
+
+
+  /* Start Actus Lisa-Lou */
+
+
+figure > img {
+    height: 320px;
+    width: 640px;
+}
