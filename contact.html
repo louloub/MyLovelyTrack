@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="main-navigation">
+    <nav>
         <div class="nav-wrapper">
           <input id="menu-checkbox" type="checkbox" class="menu-checkbox"/>
           <label for="menu-checkbox" class="menu-toggle"><img src="src/burgerMenu.svg" alt="Logo recherche" class="logo"></label>
@@ -31,8 +31,9 @@
     </nav>
 
     <section class="contactLayout">
+        <br><br>
         <h2>Contacte nous</h2><br><br>
-        <p>Un commentaire, une critique ou quelque chose que tu aimerais voir sur ce blog? Ecris nous dans ce formulaire.</p><br><br>
+        <p id="tralala">Un commentaire, une critique ou quelque chose que tu aimerais voir sur ce blog? Ecris nous dans ce formulaire.</p><br>
 
         <form method="post" action="traitement.js">
 
@@ -53,11 +54,11 @@
                     <p>Ton message :</p>
                     <label for="msg"></label>
                     <textarea id="msg" name="msg"></textarea><br>
-                </div>
+                </div><br>
 
                 <div class="button">
                     <button type="submit">Envoyer</button>
-                </div> 
+                </div> <br>
             </div>
 
         </form>
