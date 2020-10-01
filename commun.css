@@ -72,3 +72,26 @@ textarea{
 }
 
 /*Flav*/
+
+/* Start Harold */
+
+.aboutusBloc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+}
+
+.us {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-content: center;
+}
+
+.LisaLou {
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+/* End Harold */
