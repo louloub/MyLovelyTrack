@@ -114,6 +114,10 @@ justify-content: flex-end;
 font-size: 1.1rem;
 }
 
+.nav-wrapper ul li{
+  font-size: 1.5rem;
+}
+
 /*Flav*/
 
 /* Start Harold */
@@ -165,9 +169,11 @@ font-size: 1.1rem;
 
 /* start Jess */
 
+/* Agenda */
+
 .container-agenda {
   border: 1px solid black;
-  margin: 10px;
+  margin: 40px;
   box-shadow: 10px 5px 5px black;
 }
 
