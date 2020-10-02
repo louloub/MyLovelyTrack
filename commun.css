@@ -45,7 +45,7 @@ a{
     color: black;
 }
 
-.contactLayout, .titleAboutUs{
+.contactLayout{
     text-align: center;
 }
 
@@ -78,6 +78,10 @@ textarea{
 /*Flav*/
 
 /* Start Harold */
+
+.titleAboutUs{
+    text-align: center;
+}
 
 .aboutusBloc, .us, .LisaLou, .Jessica, .Flavien, .Harold, .textContent {
     display: flex;
