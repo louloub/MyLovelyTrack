@@ -115,6 +115,10 @@ justify-content: flex-end;
 font-size: 1.1rem;
 }
 
+.nav-wrapper ul li{
+  font-size: 1.5rem;
+}
+
 /*Flav*/
 
 /* Start Harold */
