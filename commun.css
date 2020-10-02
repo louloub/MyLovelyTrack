@@ -1,6 +1,22 @@
 main {
     min-height: 100vh;
+
 }
+
+/* fonts */
+@font-face {
+    font-family: fontContent;
+    src: url("src/helveticaneue-roman.ttf");;
+  }
+
+p {
+    font-family: "fontContent";
+    color: #343333;
+    line-height: normal;
+}
+
+/* End fonts */
+
 
 /* start Footer Lisa-Lou */
 
@@ -142,6 +158,7 @@ font-size: 1.1rem;
 
 /* End Harold */
 
+
 /* start Jess */
 
 .container-agenda {
@@ -251,3 +268,4 @@ font-size: 1.1rem;
 }
 
 /* End Jess */
+
