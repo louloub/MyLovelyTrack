@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 1024px){
 
+nav{
+    height: 225px;
+}
+
 .menu-checkbox:checked ~.menu { /* le tilde= je selectionne .menu uniquement si les voisins checkbox sont au meme niveau */
     display: block;     /* je montre mon menu si les autres sont au meme niveau (si la condition est remplie: ~.menu */
 } 

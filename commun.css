@@ -38,6 +38,9 @@ body{
 nav{
   padding: 1rem 0 0 0;
   text-align: center;
+  background-image: url("src/musique.jpg");
+  background-size: cover;
+  border-radius: 15px;
 
 }
 
@@ -95,6 +98,10 @@ justify-content: flex-end;
 
 .contactLayout p{
 font-size: 1.1rem;
+}
+
+.nav-wrapper ul li{
+  font-size: 1.5rem;
 }
 
 /*Flav*/
