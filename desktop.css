@@ -64,28 +64,7 @@ li{
 
 /*page d'accueil*/
 
-.cover {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 2;
-    margin: 10px;
-}
-.bloc-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap ;
-    border: 1px solid grey;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 2%;
-    box-shadow: 1px 1px 1px grey;
-}
-
-.small-description {font-size: 0.8em;
-    display: flex;
-    flex-wrap: nowrap;
-}
+/* Css is same with aboutus.html */
 
 /* Page Evenements */
 
