@@ -4,7 +4,7 @@ const titleNavElement = document.getElementById('titleNav');
 const navbarlistElement = document.getElementById('listDer');
 const navWrapperElement = document.getElementById('nav-wrapper');
 const newliElement = document.createElement('li');
-newliElement.innerHTML = "MyLovelyTrack";
+newliElement.innerHTML = "My Lovely Track";
 const searchLiElement = document.getElementById('searchLi');
 
 let burgerClose = true;
@@ -19,6 +19,7 @@ checkboxElement.addEventListener('click',function(){
         let nextSibling = document.getElementById("firstLi");
         navbarlistElement.insertBefore(newliElement, nextSibling);
         newliElement.style.fontSize = "2rem";
+        newliElement.style.fontFamily = "Bebas Neue, cursive";
         burgerClose = false
     }
     else{

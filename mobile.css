@@ -2,9 +2,17 @@
 
 @media screen and (max-width: 1024px){
 
+    nav{
+        background-color: #FFCE6A;
+    }
+    
     .menu {
         display: none;
         flex-basis: 100%;
+    }
+
+    #logoSite{
+        display: none;
     }
     
     .menu-checkbox:checked ~.menu { /* le tilde= je selectionne .menu uniquement si les voisins checkbox sont au meme niveau*/
@@ -35,6 +43,8 @@
     
     h1{
         font-size: 2rem;
+        margin-bottom: 1rem;
+        font-family: 'Bebas Neue', cursive;
     }
     
     .menu-checkbox h1{
