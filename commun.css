@@ -1,6 +1,22 @@
 main {
     min-height: 100vh;
+
 }
+
+/* fonts */
+@font-face {
+    font-family: fontContent;
+    src: url("src/helveticaneue-roman.ttf");;
+  }
+
+p {
+    font-family: "fontContent";
+    color: #343333;
+    line-height: normal;
+}
+
+/* End fonts */
+
 
 /* start Footer Lisa-Lou */
 
@@ -31,53 +47,80 @@ a:active {
 /*Flav*/
 
 body{
-    font-family: 'Lusitana', serif;
-    font-size: 1.1rem;
+  font-family: 'Lusitana', serif;
+  font-size: 1.1rem;
 }
 
 nav{
-    padding: 1rem;
-    text-align: center;
+  padding: 1rem 0 0 0;
+  text-align: center;
+
 }
 
 a{
-    text-decoration:none;
-    color: black;
+  text-decoration:none;
+  color: black;
 }
 
-.contactLayout, .titleAboutUs{
-    text-align: center;
+.contactLayout{
+
+  text-align: center;
 }
 
 form{
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .elementForm{
-    padding: 10px;
+  padding: 10px;
 }
 
 input{
-    width: 70%;
-    height: 25px;
+  width: 70%;
+  height: 25px;
 }
 
 textarea{
-    width: 70%;
-    height: 100px;
+  width: 70%;
+  height: 100px;
 }
 
 .elementForm  p{
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .menu a:hover{
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+
+form p{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: flex-start;
+}
+
+form .button{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: flex-end;
+}
+
+.contactLayout p{
+font-size: 1.1rem;
 }
 
 /*Flav*/
 
 /* Start Harold */
+
+.titleAboutUs{
+    text-align: center;
+}
 
 .aboutusBloc, .us, .LisaLou, .Jessica, .Flavien, .Harold, .textContent {
     display: flex;
@@ -95,11 +138,12 @@ textarea{
     align-content: center;
 }
 
-.LisaLou {
-}
-
 .aboutusImg {
     align-content: center;
+    border-radius: 50%;
+}
+
+.aboutusImg2 {
     border-radius: 50%;
 }
 
@@ -114,3 +158,115 @@ textarea{
 }
 
 /* End Harold */
+
+
+/* start Jess */
+
+.container-agenda {
+  border: 1px solid black;
+  margin: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.calendar {
+  text-align: center;
+}
+
+.calendar header {
+  position: relative;
+}
+
+.calendar h2 {
+  text-transform: uppercase;
+}
+
+.calendar thead {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.calendar tbody {
+  color: #7c8a95;
+}
+
+.calendar tbody td:hover {
+  border: 2px solid #FFCE6A;
+}
+
+.calendar td {
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  width: 4em;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+  color: #cbd1d2;
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+  border: 2px solid #cbd1d2;
+}
+
+.current-day {
+  background: #FFCE6A;
+  color: #f9f9f9;
+}
+
+.event {
+  cursor: pointer;
+  position: relative;
+}
+
+.event:after {
+  background: #FFCE6A;
+  border-radius: 50%;
+  bottom: .5em;
+  display: block;
+  content: '';
+  height: .5em;
+  left: 50%;
+  margin: -.25em 0 0 -.25em;
+  position: absolute;
+  width: .5em;
+}
+
+.event.current-day:after {
+  background: #f9f9f9;
+}
+
+.btn-prev,
+.btn-next {
+  border: 2px solid #cbd1d2;
+  border-radius: 50%;
+  color: #cbd1d2;
+  height: 2em;
+  font-size: .75em;
+  line-height: 2em;
+  margin: -1em;
+  position: absolute;
+  top: 50%;
+  width: 2em;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+  background: #cbd1d2;
+  color: #f9f9f9;
+}
+
+.btn-prev {
+  left: 6em;
+}
+
+.btn-next {
+  right: 6em;
+}
+
+/* End Jess */
+
