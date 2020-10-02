@@ -1,18 +1,44 @@
 main {
     min-height: 100vh;
-
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
 }
 
 /* fonts */
 @font-face {
     font-family: fontContent;
-    src: url("src/helveticaneue-roman.ttf");;
+    src: url("src/helveticaneue-roman.ttf");
   }
+
+h2,h3, h4, a {
+  font-family: fontContent;
+  src: url("src/helveticaneue-roman.ttf");
+  color: #343333;
+  line-height: normal;
+  font-weight: bold;
+  text-align: center;
+}
+
+#searchLi {
+  font-family: fontContent;
+  src: url("src/helveticaneue-roman.ttf");
+  color: #343333;
+  line-height: normal;
+  font-weight: bold;
+}
 
 p {
     font-family: "fontContent";
     color: #343333;
     line-height: normal;
+}
+
+.link-agenda {
+  font-family: "fontContent";
+  color: #343333;
+  padding: 0%;
+  font-weight: lighter;
 }
 
 /* End fonts */
@@ -22,7 +48,6 @@ p {
 
 a{
   padding: 0.3rem;
-  color: black;
 }
 
 a:link {
@@ -59,7 +84,6 @@ nav{
 
 a{
   text-decoration:none;
-  color: black;
 }
 
 .contactLayout{
@@ -172,9 +196,9 @@ font-size: 1.1rem;
 /* Agenda */
 
 .container-agenda {
-  border: 1px solid black;
+  border: 1px solid grey;
   margin: 40px;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 5px 2px 2px grey;
 }
 
 .calendar {
