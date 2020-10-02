@@ -2,6 +2,11 @@ main {
     min-height: 100vh;
 }
 
+@font-face {
+    font-family: fontContent;
+    src: "src/helveticaneue-roman.ttf";
+  }
+
 /* start Footer Lisa-Lou */
 
 a{
