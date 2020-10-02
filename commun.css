@@ -1,11 +1,22 @@
 main {
     min-height: 100vh;
+
 }
 
+/* fonts */
 @font-face {
     font-family: fontContent;
-    src: "src/helveticaneue-roman.ttf";
+    src: url("src/helveticaneue-roman.ttf");;
   }
+
+p {
+    font-family: "fontContent";
+    color: #343333;
+    line-height: normal;
+}
+
+/* End fonts */
+
 
 /* start Footer Lisa-Lou */
 
@@ -140,3 +151,4 @@ font-size: 1.1rem;
 }
 
 /* End Harold */
+
