@@ -2,6 +2,7 @@ main {
     min-height: 100vh;
     margin-right: 10%;
     margin-left: 10%;
+    margin-bottom: 10%;
 }
 
 /* fonts */
@@ -16,7 +17,7 @@ h2,h3, h4, a {
   color: #343333;
   line-height: normal;
   font-weight: bold;
-  font-style: italic;
+  text-align: center;
 }
 
 #searchLi {
