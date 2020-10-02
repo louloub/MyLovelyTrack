@@ -1,6 +1,7 @@
 main {
     min-height: 100vh;
-
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 /* fonts */
