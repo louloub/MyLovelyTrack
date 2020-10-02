@@ -47,6 +47,7 @@ a{
 }
 
 .contactLayout{
+
   text-align: center;
 }
 
@@ -100,6 +101,10 @@ font-size: 1.1rem;
 /*Flav*/
 
 /* Start Harold */
+
+.titleAboutUs{
+    text-align: center;
+}
 
 .aboutusBloc, .us, .LisaLou, .Jessica, .Flavien, .Harold, .textContent {
     display: flex;
