@@ -118,3 +118,17 @@ h2 {
 }
 
 /* End Footer Lisa-Lou */
+
+.article-layout-image-right {
+    display: flex;
+    padding: 3em;
+}
+
+.article-layout-image-right > p {
+    text-align: start;
+}
+
+.pic-harold {
+    height: 100%;
+    padding-left: 3em;
+}
