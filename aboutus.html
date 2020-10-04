@@ -18,13 +18,30 @@
 
 <body>
   <header>
-  <!--Flavien-->
-    <nav>
+    <!--Flavien-->
+    <nav id="navDesktop">
       <img src="src/lovelyTrack.png" alt="Logo et nom du site" id="logoSite">
       <div class="nav-wrapper" id="nav-wrapper">
-        <input id="menu-checkbox" type="checkbox" class="menu-checkbox"/>
-        <label for="menu-checkbox" class="menu-toggle"><img src="src/burgerMenu.svg" alt="Logo recherche" class="logo"></label>
         <ul class="menu" id="listDer">
+          <li id="firstLi"><a href="accueil.html">Accueil</a></li>
+          <li><a href="actus.html">Actus</a></li>
+          <li><a href="evenements.html">Evénements</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="aboutus.html">Qui sommes nous?</a></li>
+          <li id="searchLi">Rechercher</li>
+        </ul>
+        <h1 id="titleNav"><a href="accueil.html">My Lovely Track</a></h1>
+      </div>
+    </nav>
+
+    <nav id="navMobile">
+      <img src="src/lovelyTrack.png" alt="Logo et nom du site" id="logoSite">
+      <div class="nav-wrapper" id="nav-wrapper">
+        <input id="menu-checkbox" type="checkbox" class="menu-checkbox" />
+        <label for="menu-checkbox" class="menu-toggle"><img src="src/burgerMenu.svg" alt="Logo recherche"
+            class="logo"></label>
+        <ul class="menu" id="listDer">
+          <h1>My Lovely Track</h1>
           <li id="firstLi"><a href="accueil.html">Accueil</a></li>
           <li><a href="actus.html">Actus</a></li>
           <li><a href="evenements.html">Evénements</a></li>
@@ -36,55 +53,70 @@
         <img src="src/searchLogo.svg" alt="Logo recherche" class="logo" id="searchButton">
       </div>
     </nav>
-  <!--Flavien-->
+    <!--Flavien-->
   </header>
   <!-- Start Harold -->
   <main>
 
-    <br><br><h2 class="titleAboutUs">Qui sommes nous ?</h2>
+    <br><br>
+    <h2 class="titleAboutUs">Qui sommes nous ?</h2>
 
     <div class="aboutusBloc">
-        <div class="us">
-            <div class="LisaLou">
-                <div class="aboutusImg">
-                    <img class="aboutusImg" src="src/Lisa-Lou.jpg">
-                </div>
-                <div class="textContent">
-                    <h3 class="aboutUsName">Lisa-Lou</h3>
-                    <p>Bercée par les vinyles jazzy de ma mère pendant toute mon enfance, la musique s’est imposée très vite comme un essentiel dans ma vie. C’est pour cela que lorsque j’ai rencontré Harold, Jessica et Flavien à l’école, ça a tout de suite bien collé! Et on a décidé de lancer l’aventure My Lovely Track ensemble afin de partager et faire découvrir nos univers différents au plus de monde.</p>     
-                </div>
-            </div>
-
-            <div class="Flavien">
-                <div class="aboutusImg">
-                    <img class="aboutusImg" src="src/Flavien.jpg">
-                </div>
-                <div class="textContent">
-                    <h3 class="aboutUsName">Flavien</h3>
-                    <p>Véritable fanatique de la musique electronique depuis 4 ans maintenant, j’ai décidé de participer à la création de ce blog pour partager mes nouvelles trouvailles. Passionné aussi par l’informatique,  j’ai décidé de me reconvertir dans ce domaine et c’est ainsi que j’ai intégré la WCS de Toulouse. J’ai pu y rencontrer Harold, Lisa-Lou et Jessica, mes supers collègues de promo avec qui je code et j’entretiens ce site et ainsi lier passion et travail</p>
-                </div>
-            </div>
-            
-            <div class="Jessica">
-                <div class="aboutusImg">
-                    <img class="aboutusImg" src="src/Jess.jpg">
-                </div>
-                <div class="textContent">
-                    <h3 class="aboutUsName">Jessica</h3>
-                    <p>Très branchée “multimédia” depuis toute jeune, j’ai choisi de me lancer à fond dans le domaine du web en intégrant la Wild Code School. Grâce à un des projets demandés par la Wild, je peux allier mon 2e passe-temps favoris, la musique. Elle tourne en permanence, à la maison, en voiture ou en balade, rythme nos journées et passe aisément du pop au rock en passant par du lounge, de la techno ou encore de la variété ! Music is Life ! Life is My Lovely Track !</p>
-                </div>
-            </div>
-
-            <div class="Harold">
-                <div class="aboutusImg">
-                    <img class="aboutusImg" src="src/Harold.PNG">
-                </div>
-                <div class="textContent">
-                    <h3 class="aboutUsName">Harold</h3>
-                    <p>Passionné par la musique et l’informatique, c’est en toute logique que j’ai rejoint la wild code school pour continuer ma reconversion professionnelle. J’y ai rencontré de chouettes personnes, notamment Jessica, Lisa-Lou et Flavien avec qui nous partageons une forte passion commune : la musique, raison pour laquelle nous avons lancé MLT (My Lovely Track).</p>
-                </div>
-            </div>    
+      <div class="us">
+        <div class="LisaLou">
+          <div class="aboutusImg">
+            <img class="aboutusImg" src="src/Lisa-Lou.jpg">
+          </div>
+          <div class="textContent">
+            <h3 class="aboutUsName">Lisa-Lou</h3>
+            <p>Bercée par les vinyles jazzy de ma mère pendant toute mon enfance, la musique s’est imposée très vite
+              comme un essentiel dans ma vie. C’est pour cela que lorsque j’ai rencontré Harold, Jessica et Flavien à
+              l’école, ça a tout de suite bien collé! Et on a décidé de lancer l’aventure My Lovely Track ensemble afin
+              de partager et faire découvrir nos univers différents au plus de monde.</p>
+          </div>
         </div>
+
+        <div class="Flavien">
+          <div class="aboutusImg">
+            <img class="aboutusImg" src="src/Flavien.jpg">
+          </div>
+          <div class="textContent">
+            <h3 class="aboutUsName">Flavien</h3>
+            <p>Véritable fanatique de la musique electronique depuis 4 ans maintenant, j’ai décidé de participer à la
+              création de ce blog pour partager mes nouvelles trouvailles. Passionné aussi par l’informatique, j’ai
+              décidé de me reconvertir dans ce domaine et c’est ainsi que j’ai intégré la WCS de Toulouse. J’ai pu y
+              rencontrer Harold, Lisa-Lou et Jessica, mes supers collègues de promo avec qui je code et j’entretiens ce
+              site et ainsi lier passion et travail</p>
+          </div>
+        </div>
+
+        <div class="Jessica">
+          <div class="aboutusImg">
+            <img class="aboutusImg" src="src/Jess.jpg">
+          </div>
+          <div class="textContent">
+            <h3 class="aboutUsName">Jessica</h3>
+            <p>Très branchée “multimédia” depuis toute jeune, j’ai choisi de me lancer à fond dans le domaine du web en
+              intégrant la Wild Code School. Grâce à un des projets demandés par la Wild, je peux allier mon 2e
+              passe-temps favoris, la musique. Elle tourne en permanence, à la maison, en voiture ou en balade, rythme
+              nos journées et passe aisément du pop au rock en passant par du lounge, de la techno ou encore de la
+              variété ! Music is Life ! Life is My Lovely Track !</p>
+          </div>
+        </div>
+
+        <div class="Harold">
+          <div class="aboutusImg">
+            <img class="aboutusImg" src="src/Harold.PNG">
+          </div>
+          <div class="textContent">
+            <h3 class="aboutUsName">Harold</h3>
+            <p>Passionné par la musique et l’informatique, c’est en toute logique que j’ai rejoint la wild code school
+              pour continuer ma reconversion professionnelle. J’y ai rencontré de chouettes personnes, notamment
+              Jessica, Lisa-Lou et Flavien avec qui nous partageons une forte passion commune : la musique, raison pour
+              laquelle nous avons lancé MLT (My Lovely Track).</p>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
   <!-- End Harold -->
@@ -100,10 +132,10 @@
     </div>
 
     <div class="logos-container">
-        <img alt="facebook logo" src="src/facebook-logo.png" width="25" height="25" />
-        <img alt="instagram logo" src="src/instagram-logo.png" width="25" height="25" />
-        <img alt="twitter logo" src="src/twitter-logo.png" width="25" height="25" />
-        <img alt="soundcloud logo" src="src/soundcloud-logo.png" width="25" height="25" />
+      <img alt="facebook logo" src="src/facebook-logo.png" width="25" height="25" />
+      <img alt="instagram logo" src="src/instagram-logo.png" width="25" height="25" />
+      <img alt="twitter logo" src="src/twitter-logo.png" width="25" height="25" />
+      <img alt="soundcloud logo" src="src/soundcloud-logo.png" width="25" height="25" />
     </div>
   </footer>
   <!-- End footer Lisa-Lou -->
