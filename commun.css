@@ -210,7 +210,7 @@ font-size: 1.1rem;
   text-align: center;
 }
 
-.calendar header {
+.calendar div {
   position: relative;
 }
 
@@ -299,11 +299,16 @@ font-size: 1.1rem;
 }
 
 .btn-prev {
-  left: 6em;
+  left: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-next {
-  right: 6em;
+  right: 1.2rem;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* End Jess */
