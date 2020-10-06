@@ -13,19 +13,36 @@
     <link rel="stylesheet" href="navbar.css">
     <link href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="favicon.ico" />
 
 </head>
 
 <body>
     <header>
         <!--Flavien-->
-        <nav>
+        <nav id="navDesktop">
+            <img src="src/lovelyTrack.png" alt="Logo et nom du site" id="logoSite">
+            <div class="nav-wrapper" id="nav-wrapper">
+                <ul class="menu" id="listDer">
+                    <li id="firstLi"><a href="accueil.html">Accueil</a></li>
+                    <li><a href="actus.html">Actus</a></li>
+                    <li><a href="evenements.html">Evénements</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="aboutus.html">Qui sommes nous?</a></li>
+                    <li id="searchLi">Rechercher</li>
+                </ul>
+                <h1 id="titleNav"><a href="accueil.html">My Lovely Track</a></h1>
+            </div>
+        </nav>
+
+        <nav id="navMobile">
             <img src="src/lovelyTrack.png" alt="Logo et nom du site" id="logoSite">
             <div class="nav-wrapper" id="nav-wrapper">
                 <input id="menu-checkbox" type="checkbox" class="menu-checkbox" />
                 <label for="menu-checkbox" class="menu-toggle"><img src="src/burgerMenu.svg" alt="Logo recherche"
                         class="logo"></label>
                 <ul class="menu" id="listDer">
+                    <h1>My Lovely Track</h1>
                     <li id="firstLi"><a href="accueil.html">Accueil</a></li>
                     <li><a href="actus.html">Actus</a></li>
                     <li><a href="evenements.html">Evénements</a></li>
@@ -150,7 +167,7 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-  
+
             <p>Retrouvez la tournée dans l'<a href="evenements.html">agenda</a></p>
 
             <div class="logos-socials-article">
@@ -265,8 +282,8 @@
                 Coté concert, on reste à l'affût mais l’épidémie Covid-19 a eu raison de bons nombres de concerts…
             </p>
             <div class="embed-youtube">
-              <iframe width="560" height="315" src="https://www.dailymotion.com/embed/video/x1viv3" frameborder="0"
-              allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.dailymotion.com/embed/video/x1viv3" frameborder="0"
+                    allowfullscreen></iframe>
             </div>
 
             <p>Retrouvez la tournée dans l'<a href="evenements.html">agenda</a></p>
@@ -295,11 +312,10 @@
     <!-- Start footer Lisa-Lou -->
     <footer>
         <div class="links-container">
-            <a href="accueil.html">Accueil</a>
-            <a href="actus.html">Actus</a>
-            <a href="evenements.html">Evénements</a>
+            <a href="accueil.html">® MylovelyTrack</a>
+            <a href="actus.html">Conditions générales</a>
+            <a href="evenements.html">Confidentialités et cookies</a>
             <a href="contact.html">Contact</a>
-            <a href="aboutus.html">Qui sommes-nous?</a>
         </div>
 
         <div class="logos-container">

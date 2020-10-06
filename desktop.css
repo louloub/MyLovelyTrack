@@ -1,11 +1,13 @@
 /*Flav*/
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
+
+#navMobile{
+    display: none;
+}
 
 nav{
-    height: 275px;
-    background-color: #FFCE6A;
-    
+    height: 315px;
 }
 
 #titleNav{
@@ -18,9 +20,7 @@ nav{
     padding-bottom: 1.4rem;
 }
 
-.menu-checkbox:checked ~.menu { /* le tilde= je selectionne .menu uniquement si les voisins checkbox sont au meme niveau */
-    display: block;     /* je montre mon menu si les autres sont au meme niveau (si la condition est remplie: ~.menu */
-} 
+
 
 .menu-checkbox{
     display: none;
@@ -47,6 +47,7 @@ h1{
 .menu{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 li{
@@ -95,7 +96,7 @@ h2 {
 
 /* Start Footer Lisa-Lou */
 
-@media only screen and (min-width: 575px) {
+@media only screen and (min-width: 768px) {
     footer {
         display: flex;
         flex-direction: row;

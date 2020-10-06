@@ -11,6 +11,10 @@ main {
     src: url("src/helveticaneue-roman.ttf");
   }
 
+h1, h1>a {
+  font-family:'Bebas Neue', cursive;
+}  
+
 h2,h3, h4, a {
   font-family: fontContent;
   src: url("src/helveticaneue-roman.ttf");
@@ -77,9 +81,9 @@ body{
 }
 
 nav{
-  padding: 1rem 0 0 0;
+  padding: 1.5rem 0 0 0;
   text-align: center;
-
+  background-color: #FFCE6A;
 }
 
 a{
