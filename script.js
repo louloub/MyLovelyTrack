@@ -15,9 +15,6 @@ buttonLDorElement.addEventListener('click', function () {
     mainElement.appendChild(newParagrapheElement);
     newParagrapheElement.innerHTML = '- ' + inputLivreDor.value;
     newParagrapheElement.style.padding = "20px";
-<<<<<<< HEAD
-});
-=======
 })
 
 // START HAROLD - script for LOGIN BUTTON
@@ -29,4 +26,3 @@ function openForm() {
     document.getElementById("myForm").style.display = "none";
   }
 // END HAROLD - script for LOGIN BUTTON
->>>>>>> master
