@@ -177,7 +177,6 @@ figcaption {
 
 .article-layout-image-right > p {
     text-align: start;
-    float: left;
 }
 
 .content-article {
@@ -186,7 +185,6 @@ figcaption {
 
 .layout-article {
     text-align: start;
-    float: left;
 }
 
 .pic-harold {
@@ -194,9 +192,11 @@ figcaption {
     padding-left: 2rem;
     align-self: center;
 }
+
 .agenda-link {
     padding: 0%;
 }
+
 
 .logos-socials-article {
     display: flex;
