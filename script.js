@@ -1,3 +1,8 @@
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
+
 const buttonLDorElement = document.getElementById('buttonLivreDor');
 
 const inputLivreDor = document.getElementById('msgLiDor');
@@ -10,4 +15,4 @@ buttonLDorElement.addEventListener('click', function () {
     mainElement.appendChild(newParagrapheElement);
     newParagrapheElement.innerHTML = '- ' + inputLivreDor.value;
     newParagrapheElement.style.padding = "20px";
-})
+});

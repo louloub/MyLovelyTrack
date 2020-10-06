@@ -5,6 +5,20 @@ main {
     margin-bottom: 10%;
 }
 
+/* start dark mode*/
+body {
+  padding: 25px;
+  background-color: white;
+  color:#343333;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* End dark mode */
+
 /* fonts */
 @font-face {
     font-family: fontContent;
