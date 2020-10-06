@@ -355,12 +355,12 @@ font-size: 1.1rem;
   box-sizing: border-box;
 }
 .onoffswitch-inner:before {
-  content: "Light Mode";
+  content: "Light";
   padding-left: 10px;
   background-color: #FFCE6A; color: #FFFFFF;
 }
 .onoffswitch-inner:after {
-  content: "Dark Mode";
+  content: "Dark";
   padding-right: 10px;
   background-color: #EEEEEE; color: #999999;
   text-align: right;
@@ -369,7 +369,7 @@ font-size: 1.1rem;
   display: block; width: 18px; margin: 6px;
   background: #FFFFFF;
   position: absolute; top: 0; bottom: 0;
-  right: 88px;
+  right: 55px;
   border: 2px solid #999999; border-radius: 20px;
   transition: all 0.3s ease-in 0s; 
 }
@@ -383,6 +383,7 @@ font-size: 1.1rem;
 #interrupteur{
   display: flex;
   flex-direction: row-reverse;
+  margin-top: 20px;
 }
 
 /* Button ON/OFF end*/ 
