@@ -99,6 +99,11 @@ h2 {
     margin: 30px 0;
     font-family: 'Lusitana', serif;
 }
+
+.darkmode {
+    display: flex;
+    flex-direction: row-reverse;
+}
 /*Jess*/
 
 /* Start Footer Lisa-Lou */
