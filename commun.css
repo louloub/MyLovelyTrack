@@ -193,6 +193,13 @@ font-size: 1.1rem;
     font-size: 25px;
 }
 
+.imgCarousselTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
 /* End Harold */
 
 
