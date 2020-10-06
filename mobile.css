@@ -108,5 +108,6 @@ footer {
 
     .article-layout-image-right>p {
         text-align: start;
+        text-align: justify;
     }
 }
