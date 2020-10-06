@@ -93,7 +93,7 @@ html, body {
 }
 
 .carousel-bullet {
-    color: #fff;
+    color: grey;
     cursor: pointer;
     display: block;
     font-size: 35px;
