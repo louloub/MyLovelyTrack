@@ -8,12 +8,11 @@ main {
 /* start dark mode*/
 body {
   padding: 25px;
-  background-color: white;
   color: #343333;
 
 }
 
-.dark-mode{
+.dark-mode {
   background-color: black;
   color: white;
 }
