@@ -61,12 +61,22 @@
 
     </header>
 
-    <main id="livredor">
-        <h2>Livre d'Or</h2><br><br>
+    <main>
 
+        <div class="onoffswitch" id="interrupteur">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked onclick="myFunction()">
+            <label class="onoffswitch-label" for="myonoffswitch">
+              <span class="onoffswitch-inner"></span>
+              <span class="onoffswitch-switch"></span>
+            </label>
+          </div>
+
+    <div id="livredor">
+        <h2>Livre d'Or</h2><br><br>
         <p>Des choses que vous avez adorées ou detestées voir sur notre blog? Une critique sur un article ou un
             rédacteur?
-            C'est ici que ca se passe &#128540 !</p>
+            C'est ici que ca se passe &#128540 !
+        </p>
 
         <form method="post" action="traitement.js" id="form2">
 
@@ -82,14 +92,12 @@
             </div><br>
 
             <div>
-
                 <button type="button" id="buttonLivreDor" class="buttonContactLivreOr">Envoyer</button>
             </div> <br>
             </div>
-
-
         </form>
         </div>
+    </div>
     </main>
 
 
