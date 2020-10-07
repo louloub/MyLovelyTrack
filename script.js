@@ -1,4 +1,10 @@
 
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
+
 const buttonLDorElement = document.getElementById('buttonLivreDor');
 
 const inputLivreDor = document.getElementById('msgLiDor');
@@ -14,6 +20,8 @@ const mainElement = document.querySelector('#livredor');
 //     newParagrapheElement.innerHTML = '- ' + nomLivreDor.value + ' a commenté: ' + "'" + inputLivreDor.value + "'";
 //     newParagrapheElement.style.padding = "12px";
 // })
+
+
 
 // START HAROLD - script for LOGIN BUTTON
 function openForm() {
@@ -48,7 +56,7 @@ function switchTheme() {
     document.body.classList.remove('dark'); // Enlève la classe "dark" à body
     localStorage.setItem('theme', 'light'); // Enregistre le theme light dans le localstorage
   }
-}
 
 
 // End dark Theme + local storage 
+

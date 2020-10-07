@@ -54,15 +54,17 @@ html, body {
     transform: translate(0, -50%);
     text-align: center;
     width: 40px;
-    z-index: 10;
+    z-index: 7;
 }
 
 .carousel-control.prev {
     left: 2%;
+    z-index: auto;
 }
 
 .carousel-control.next {
     right: 2%;
+    z-index: auto;
 }
 
 .carousel-control:hover {
@@ -86,7 +88,7 @@ html, body {
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 10;
+    z-index: 6;
 }
 
 .carousel-indicators li {
@@ -99,6 +101,8 @@ html, body {
     cursor: pointer;
     display: block;
     font-size: 35px;
+    z-index: 6;
+
 }
 
 .carousel-bullet:hover {

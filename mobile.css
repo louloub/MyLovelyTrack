@@ -49,15 +49,56 @@
         font-size: 2em;
     }
     /* Start Harold */
+
     /* Bloc text pass under pics on mobile */
     .LisaLou, .Jessica, .Harold, .Flavien {
         flex-wrap: wrap;
     }
+
     .aboutusImg {
         display: block;
         margin-left: auto;
         margin-right: auto
     }
+
+    /* Account button */
+    .open-button-img {
+        display: block;
+        position: absolute;
+        bottom: -1.1px;
+        right: -2px;
+    }   
+
+    /* Button used to open the contact form - fixed at the bottom of the page */    
+    .open-button {
+        border-radius: 50px !important;
+        top: 90vh !important; /* % de la page */
+        bottom: 23px !important;
+        height: 45px !important;
+        width: 45px !important;
+        background-color:white !important;
+        border: 0px !important; 
+    }
+
+    /* Text into button */
+    .open-button-texte {
+        display: none;  
+        width: 0px;
+        height: 0px;
+    }
+
+    /* 
+            display: none !important;
+        background-image: url(/MyLovelyTrack/src/account.png) !important;
+
+            border-radius: 100% !important;
+            background-color: white !important;
+
+            background-image: url(/MyLovelyTrack/src/account.png) !important;
+
+    visibility: visible;
+        background-color: white;
+    */
     /* End Harold */
 }
 
@@ -108,5 +149,8 @@ footer {
 
     .article-layout-image-right>p {
         text-align: start;
+        text-align: justify;
     }
+
+
 }

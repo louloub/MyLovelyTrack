@@ -5,6 +5,7 @@ main {
   margin-bottom: 10%;
 }
 
+
 /* start light mode*/
 
 :root {
@@ -13,6 +14,7 @@ main {
 }
 
 /* End light mode */
+
 
 /* start dark mode*/
 
@@ -85,6 +87,11 @@ p {
   font-family: "fontContent";
   line-height: normal;
   color: var(--text-color);
+  text-align: justify;
+}
+
+#plusDarticles{
+  text-align: center;
 }
 
 .link-agenda {
@@ -122,7 +129,18 @@ a:active {
 
 /*Flav*/
 
-body {
+.buttonContactLivreOr {
+  color: #FFCE6A;
+  font-weight: bold;
+  background-color: #FF6D6A;
+  margin: 0em;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-align: right;
+  margin-left: 60%;
+}
+
+body{
   font-family: 'Lusitana', serif;
   font-size: 1.1rem;
 }
@@ -184,6 +202,7 @@ form .button {
   justify-content: flex-end;
 }
 
+
 .contactLayout p {
   font-size: 1.1rem;
 }
@@ -193,6 +212,10 @@ form .button {
 }
 
 #livredor {
+  text-align: center;
+}
+
+#tralala{
   text-align: center;
 }
 
@@ -245,6 +268,7 @@ form .button {
   margin-bottom: 50px;
   margin-top: 15px;
 }
+
 
 /* End Harold */
 
