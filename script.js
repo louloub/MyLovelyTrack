@@ -14,12 +14,13 @@ const nomLivreDor = document.getElementById('nom');
 const mainElement = document.querySelector('#livredor');
 
 
-// buttonLDorElement.addEventListener('click', function () {
-//     const newParagrapheElement = document.createElement('p');
-//     mainElement.appendChild(newParagrapheElement);
-//     newParagrapheElement.innerHTML = '- ' + nomLivreDor.value + ' a commenté: ' + "'" + inputLivreDor.value + "'";
-//     newParagrapheElement.style.padding = "12px";
-// })
+ buttonLDorElement.addEventListener('click', function () {
+     const newParagrapheElement = document.createElement('p');
+     mainElement.appendChild(newParagrapheElement);
+     newParagrapheElement.innerHTML = '- ' + nomLivreDor.value + ' a commenté: ' + "'" + inputLivreDor.value + "'";
+     newParagrapheElement.style.padding = "12px";
+})
+
 
 
 
@@ -59,4 +60,4 @@ function switchTheme() {
 }
 
 // End dark Theme + local storage 
-
+}
