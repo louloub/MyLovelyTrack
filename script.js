@@ -7,10 +7,11 @@ const mainElement = document.querySelector('#livredor');
 
 function addComment() {
   buttonLDorElement.addEventListener('click', function () {
-     const newParagrapheElement = document.createElement('p');
-     mainElement.appendChild(newParagrapheElement);
-     newParagrapheElement.innerHTML = '- ' + nomLivreDor.value + ' a commenté: ' + "'" + inputLivreDor.value + "'";
-     newParagrapheElement.style.padding = "12px";
+    const newParagrapheElement = document.createElement('p');
+    mainElement.appendChild(newParagrapheElement);
+    newParagrapheElement.innerHTML = '- ' + nomLivreDor.value + ' a commenté: ' + "'" + inputLivreDor.value + "'";
+    newParagrapheElement.style.padding = "12px";
+    newParagrapheElement.style.textAlign = "center";
   });
 }
 
@@ -40,7 +41,7 @@ function setInitialTheme() { // fonction qui set le theme enregistré
 setInitialTheme();
 
 function switchTheme() {
-  if (document.getElementById("myonoffswitch").checked === false ) { // dark theme
+  if (document.getElementById("myonoffswitch").checked === false) { // dark theme
     document.body.classList.add('dark'); // Ajoute la classe "dark" à body, ce qui change le theme
     localStorage.setItem('theme', 'dark'); // Enregistre le theme dark dans le localstorage
   }
