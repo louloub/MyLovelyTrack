@@ -48,7 +48,15 @@ h1, h1>a {
   font-family:'Bebas Neue', cursive;
 }  
 
-h2,h3, h4, a {
+a, #searchLi {
+  font-family: fontContent;
+  src: url("src/helveticaneue-roman.ttf");
+  line-height: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #343333;
+}
+h2,h3, h4, .agenda-link {
   font-family: fontContent;
   src: url("src/helveticaneue-roman.ttf");
   line-height: normal;

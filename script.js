@@ -26,6 +26,28 @@ function openForm() {
 // END HAROLD - script for LOGIN BUTTON
 
 
-function myFunction() {
-  document.documentElement.style.setProperty('--background-color', '#343333');
-} 
+// Start dark Theme + local storage 
+
+var darkTheme = false;
+  
+function switchTheme() {
+  if (darkTheme === true) {
+    document.documentElement.style.setProperty('--background-color', '#f8f8ff');
+    document.documentElement.style.setProperty('--text-color', '#343333');
+    darkTheme = false;
+    localStorage.setItem('theme', 'light');
+  }
+  else {
+    document.documentElement.style.setProperty('--background-color', 'black');
+    document.documentElement.style.setProperty('--text-color', '#f8f8ff');
+    darkTheme = true;
+    localStorage.setItem('theme', 'dark');
+  }
+}   
+
+let currentTheme = localStorage.getItem('theme');
+if (currentTheme) {
+    document.documentElement.setProperty('--background-color', currentTheme);
+}
+
+// End dark Theme + local storage 
