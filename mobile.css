@@ -61,22 +61,29 @@
         margin-right: auto
     }
 
+    /* Account button */
     .open-button-img {
         display: block;
-    }
+        position: absolute;
+        bottom: -1.1px;
+        right: -2px;
+    }   
 
     /* Button used to open the contact form - fixed at the bottom of the page */    
     .open-button {
         border-radius: 50px !important;
-        top: 90vh !important;
+        top: 90vh !important; /* % de la page */
         bottom: 23px !important;
-        height: 42px !important ;
+        height: 45px !important;
+        width: 45px !important;
+        background-color:white !important;
+        border: 0px !important; 
     }
 
     /* Text into button */
     .open-button-texte {
         display: none;  
-        width:0px;
+        width: 0px;
         height: 0px;
     }
 

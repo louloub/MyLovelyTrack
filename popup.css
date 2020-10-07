@@ -3,7 +3,7 @@
 .open-button {
     background-color: #FFCE6A;
     padding: 0px 20px;
-    border: 2px solid #999999; 
+    border: 1px solid #999999; 
     border-radius: 20px;
     cursor: pointer;
     opacity: 1;
@@ -11,12 +11,6 @@
     top: 23px;
     right: 1%;
     font-size: 1.5rem;
-}
-
-.open-button-img {
-}
-
-.open-button-texte {
 }
 
 button > img,
@@ -76,3 +70,4 @@ button > span {
   /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
+  }
