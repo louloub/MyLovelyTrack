@@ -1,3 +1,5 @@
+
+
 main {
     min-height: 100vh;
     margin-right: 10%;
@@ -5,12 +7,33 @@ main {
     margin-bottom: 10%;
 }
 
+p{
+  text-align: justify;
+}
+
+#plusDarticles{
+  text-align: center;
+}
+
+/* start dark mode*/
+:root {
+ --background-color: #f8f8ff;
+ --text-color: #343333;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+/* End dark mode */
+
 h2{
   padding: 50px 0 25px 0;
 }
 
 html{
-  background-color: #f2f2f2;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 input{
@@ -33,32 +56,37 @@ h1, h1>a {
   font-family:'Bebas Neue', cursive;
 }  
 
-h2,h3, h4, a {
+a, #searchLi {
   font-family: fontContent;
   src: url("src/helveticaneue-roman.ttf");
-  color: #343333;
   line-height: normal;
   font-weight: bold;
   text-align: center;
+  color: #343333;
+}
+h2,h3, h4, .agenda-link {
+  font-family: fontContent;
+  src: url("src/helveticaneue-roman.ttf");
+  line-height: normal;
+  font-weight: bold;
+  text-align: center;
+  color: var(--text-color);
 }
 
 #searchLi {
   font-family: fontContent;
   src: url("src/helveticaneue-roman.ttf");
-  color: #343333;
   line-height: normal;
   font-weight: bold;
 }
 
 p {
     font-family: "fontContent";
-    color: #343333;
     line-height: normal;
 }
 
 .link-agenda {
   font-family: "fontContent";
-  color: #343333;
   padding: 0%;
   font-weight: lighter;
 }
@@ -92,6 +120,17 @@ a:active {
 
 
 /*Flav*/
+
+button {
+  color: #FFCE6A;
+  font-weight: bold;
+  background-color: #FF6D6A;
+  margin: 0em;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-align: right;
+  margin-left: 60%;
+}
 
 body{
   font-family: 'Lusitana', serif;
@@ -149,13 +188,6 @@ display: flex;
 justify-content: flex-start;
 }
 
-form .button{
-width: 70%;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-justify-content: flex-end;
-}
 
 .contactLayout p{
 font-size: 1.1rem;
@@ -166,6 +198,10 @@ font-size: 1.1rem;
 }
 
 #livredor{
+  text-align: center;
+}
+
+#tralala{
   text-align: center;
 }
 
@@ -363,12 +399,12 @@ font-size: 1.1rem;
   box-sizing: border-box;
 }
 .onoffswitch-inner:before {
-  content: "Light Mode";
+  content: "Light";
   padding-left: 10px;
   background-color: #FFCE6A; color: #FFFFFF;
 }
 .onoffswitch-inner:after {
-  content: "Dark Mode";
+  content: "Dark";
   padding-right: 10px;
   background-color: #EEEEEE; color: #999999;
   text-align: right;
@@ -377,7 +413,7 @@ font-size: 1.1rem;
   display: block; width: 18px; margin: 6px;
   background: #FFFFFF;
   position: absolute; top: 0; bottom: 0;
-  right: 88px;
+  right: 55px;
   border: 2px solid #999999; border-radius: 20px;
   transition: all 0.3s ease-in 0s; 
 }
@@ -391,6 +427,7 @@ font-size: 1.1rem;
 #interrupteur{
   display: flex;
   flex-direction: row-reverse;
+  margin-top: 20px;
 }
 
 /* Button ON/OFF end*/ 

@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>My Lovely Track</title>
+    <title>Nouveautés musicales - Actualités - MyLovelyTrack</title>
+    <meta name="description"
+        content="C'est un blog sur les nouveautés musicales où on peut trouver des articles sur les artistes à la mode. Il y a par exemple l'histoire du groupe, leurs réseaux sociaux. Les rédacteurs expriment leurs émotions sur leurs découvertes" />
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="commun.css">
@@ -11,6 +13,7 @@
     <link rel="stylesheet" href="desktop.css">
     <link rel="stylesheet" href="caroussel.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="popup.css">
     <link href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="icon" type="image/ico" href="src/favicon.ico" />
@@ -19,7 +22,7 @@
 
 <body>
     <header>
-
+        <!--Flavien-->
         <nav id="navDesktop">
             <img src="src/lovelyTrack.png" alt="Logo et nom du site" id="logoSite">
             <div class="nav-wrapper" id="nav-wrapper">
@@ -40,7 +43,7 @@
             <img src="src/lovelyTrack.png" alt="Logo et nom du site" id="logoSite">
             <div class="nav-wrapper" id="nav-wrapper">
                 <input id="menu-checkbox" type="checkbox" class="menu-checkbox" />
-                <label for="menu-checkbox" class="menu-toggle"><img src="src/burgerMenu.svg" alt="Logo recherche"
+                <label for="menu-checkbox" class="menu-toggle"><img src="src/burgerMenu.svg" alt="Logo menu déroulant"
                         class="logo"></label>
                 <ul class="menu" id="listDer">
                     <h1>My Lovely Track</h1>
@@ -61,8 +64,9 @@
     <main id="livredor">
         <h2>Livre d'Or</h2><br><br>
 
-        <p>Des choses que vous avez adorés ou detestés voir sur notre blog? Une critique sur un article ou un rédacteur?
-            C'est ici que ca se passe &#128540 Ne t'en fais pas, c'est anonyme.</p>
+        <p>Des choses que vous avez adorées ou detestées voir sur notre blog? Une critique sur un article ou un
+            rédacteur?
+            C'est ici que ca se passe &#128540 !</p>
 
         <form method="post" action="traitement.js" id="form2">
 
@@ -78,12 +82,13 @@
             </div><br>
 
             <div>
-                <button type="button" id="buttonLivreDor">Envoyer</button>
+                <button type="button" id="buttonLivreDor" class="button">Envoyer</button>
             </div> <br>
             </div>
 
-        </form>
 
+        </form>
+        </div>
     </main>
 
 
@@ -91,19 +96,20 @@
     <!-- Start footer Lisa-Lou -->
     <footer>
         <div class="links-container">
-            <a href="accueil.html">® MylovelyTrack</a>
-            <a href="actus.html">Conditions générales</a>
-            <a href="evenements.html">Confidentialités et cookies</a>
-            <a href="contact.html">Contact</a>
-        </div>
+            <div class="links-container">
+                <a href="accueil.html">® MylovelyTrack</a>
+                <a href="actus.html">Conditions générales</a>
+                <a href="evenements.html">Confidentialités et cookies</a>
+                <a href="contact.html">Contact</a>
+            </div>
 
-        <div class="logos-container">
-            <img alt="facebook logo" src="src/facebook-logo.png" width="25" height="25" />
-            <img alt="instagram logo" src="src/instagram-logo.png" width="25" height="25" />
-            <img alt="twitter logo" src="src/twitter-logo.png" width="25" height="25" />
-            <img alt="soundcloud logo" src="src/soundcloud-logo.png" width="25" height="25" />
-        </div>
-    </footer>
+            <div class="logos-container">
+                <img alt="facebook logo" src="src/facebook-logo.png" alt="Logo Facebook" width="25" height="25" />
+                <img alt="instagram logo" src="src/instagram-logo.png" alt="Logo Instagram" width="25" height="25" />
+                <img alt="twitter logo" src="src/twitter-logo.png" alt="Logo Twitter" width="25" height="25" />
+                <img alt="soundcloud logo" src="src/soundcloud-logo.png" alt="Logo Soundcloud" width="25" height="25" />
+            </div>
+    </footer>s
     <!-- End footer Lisa-Lou -->
 </body>
 

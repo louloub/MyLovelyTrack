@@ -182,6 +182,7 @@ figcaption {
 
 .article-layout-image-right > p {
     text-align: start;
+    text-align: justify;
 }
 
 .content-article {
