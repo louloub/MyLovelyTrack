@@ -65,10 +65,16 @@
     <main>
 
         <div class="onoffswitch" id="interrupteur">
-          
-            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0"
-                checked onclick="myFunction()">
-
+            <input 
+                type="checkbox" 
+                name="onoffswitch" 
+                class="onoffswitch-checkbox" 
+                id="myonoffswitch" 
+                tabindex="0"
+                value="checked"
+                checked
+                onclick="switchTheme()" 
+                />
             <label class="onoffswitch-label" for="myonoffswitch">
                 <span class="onoffswitch-inner"></span>
                 <span class="onoffswitch-switch"></span>
@@ -133,8 +139,7 @@
         <div class="form-popup" id="myForm">
             <form action="/action_page.php" class="form-container">
                 <h1 class="loginButtonText">Login</h1>
-           
-                <label for="email"><b>Email</b></label>
+                           <label for="email"><b>Email</b></label>
                 <input type="text" placeholder="Entrer votre Email" name="email" required>
 
                 <label for="psw"><b>Mot de passe</b></label>
@@ -159,7 +164,7 @@
                         <p>C’est ma musique du moment! Elle déchire tout! Un petit coup de mou ou une baisse de moral à
                             cause du confinement? Laisse-toi embarquer...</p>
                         <br />
-                        <a href="actus.html#laPtiteFumee">(voir l'article)</a>
+                        <a class = "article-link" href="actus.html#laPtiteFumee">(voir l'article)</a>
                     </div>
                 </div>
 
@@ -173,7 +178,7 @@
                         <p>Des musiques que je peux écouter en boucle, il en existe un certain nombre, celle-ci en fait
                             partie. On y retrouve un des artistes Ska et Reggae...</p>
                         <br />
-                        <a href="actus.html#manuCiao">(voir l'article)</a>
+                        <a class = "article-link" href="actus.html#manuCiao">(voir l'article)</a>
                     </div>
                 </div>
 
@@ -186,7 +191,7 @@
                         <p>Who Knew, de P!nk, mon coup de coeur depuis près de 10 ans. Une musique qui me transporte
                             littéralement...</p>
                         <br />
-                        <a href="actus.html#pink">(voir l'article)</a>
+                        <a class = "article-link" href="actus.html#pink">(voir l'article)</a>
                     </div>
 
                 </div>
@@ -200,7 +205,7 @@
                         <p>Parcels c’est un groupe de 5 australiens dont les vibes très seventies rappellent les
                             Beatles, mais en version électro...</p>
                         <br />
-                        <a href="actus.html#parcels">(voir l'article)</a>
+                        <a class = "article-link" href="actus.html#parcels">(voir l'article)</a>
                     </div>
                 </div>
             </div>
