@@ -1,3 +1,5 @@
+
+
 main {
     min-height: 100vh;
     margin-right: 10%;
@@ -6,15 +8,13 @@ main {
 }
 
 /* start dark mode*/
-body {
-  padding: 25px;
-  color: #343333;
-
+:root {
+ --background-color: #f8f8ff;
+ --text-color: #343333;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+body {
+  background-color: var(--background-color);
 }
 
 /* End dark mode */
@@ -24,7 +24,8 @@ h2{
 }
 
 html{
-  background-color: #f2f2f2;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 input{
@@ -53,7 +54,7 @@ h2,h3, h4, a {
   line-height: normal;
   font-weight: bold;
   text-align: center;
-  color: #343333;
+  color: var(--text-color);
 }
 
 #searchLi {

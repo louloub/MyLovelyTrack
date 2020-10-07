@@ -1,7 +1,3 @@
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-  }
 
 const buttonLDorElement = document.getElementById('buttonLivreDor');
 
@@ -28,3 +24,8 @@ function openForm() {
     document.getElementById("myForm").style.display = "none";
   }
 // END HAROLD - script for LOGIN BUTTON
+
+
+function myFunction() {
+  document.documentElement.style.setProperty('--background-color', '#343333');
+} 
