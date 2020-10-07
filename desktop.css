@@ -167,7 +167,7 @@ article > p {
 .header-article > h4 {
     font-size: 1rem;
     padding: 1.5rem;
-    border-bottom: solid black;
+    border-bottom: solid var(--text-color);
 }
 
 figcaption {
@@ -207,7 +207,7 @@ figcaption {
     display: flex;
     justify-content: center;
     padding-bottom: 2rem;;
-    border-bottom: double black;
+    border-bottom: double var(--text-color);
 }
 
 .embed-youtube {

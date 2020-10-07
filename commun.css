@@ -31,10 +31,7 @@ h2 {
   padding: 50px 0 25px 0;
 }
 
-html {
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
+
 
 input {
   background-color: #ededed;
@@ -68,7 +65,7 @@ a, #searchLi {
   color: #343333;
 }
 
-h2, h3, h4, .agenda-link {
+h2, h3, h4, .agenda-link, .article-link {
   font-family: fontContent;
   src: url("src/helveticaneue-roman.ttf");
   line-height: normal;
@@ -87,12 +84,14 @@ h2, h3, h4, .agenda-link {
 p {
   font-family: "fontContent";
   line-height: normal;
+  color: var(--text-color);
 }
 
 .link-agenda {
   font-family: "fontContent";
   padding: 0%;
   font-weight: lighter;
+  color: var(--text-color);
 }
 
 /* End fonts */
@@ -292,6 +291,7 @@ form .button {
   line-height: 4em;
   text-align: center;
   width: 4em;
+  color: var(--text-color);
 }
 
 .calendar .prev-month, .calendar .next-month {
