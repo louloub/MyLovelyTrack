@@ -51,5 +51,4 @@ function switchTheme() {
 }
 
 addComment();
-// End dark Theme + local storage 
 
