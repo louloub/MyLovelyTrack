@@ -22,6 +22,27 @@
 
 <body>
   <header>
+    <!-- Harold Start popup -->
+    <button class="open-button" onclick="openForm()">
+        <img class="open-button-img" src="src/account.png"/>
+        <span class="open-button-texte">Login</span>
+    </button>
+
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1 class="loginButtonText">Login</h1>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Entrer votre Email" name="email" required>
+
+            <label for="psw"><b>Mot de passe</b></label>
+            <input type="password" placeholder="Enter votre mot de passe" name="psw" required>
+
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
+        </form>
+    </div>
+<!-- Harold End popup -->
     <!--Flavien-->
     <nav id="navDesktop">
       <img src="src/lovelyTrack.png" alt="Logo et nom du site" id="logoSite">
