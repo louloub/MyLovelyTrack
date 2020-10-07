@@ -56,7 +56,7 @@ function switchTheme() {
     document.body.classList.remove('dark'); // Enlève la classe "dark" à body
     localStorage.setItem('theme', 'light'); // Enregistre le theme light dans le localstorage
   }
-
+}
 
 // End dark Theme + local storage 
 
