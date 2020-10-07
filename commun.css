@@ -7,6 +7,14 @@ main {
     margin-bottom: 10%;
 }
 
+p{
+  text-align: justify;
+}
+
+#plusDarticles{
+  text-align: center;
+}
+
 /* start dark mode*/
 :root {
  --background-color: #f8f8ff;
