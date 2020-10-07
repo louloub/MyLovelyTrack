@@ -1,7 +1,9 @@
+
 function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+
 
 const buttonLDorElement = document.getElementById('buttonLivreDor');
 
@@ -30,10 +32,5 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 // END HAROLD - script for LOGIN BUTTON
-
-
-
-
-
 
 

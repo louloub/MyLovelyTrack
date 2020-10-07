@@ -60,50 +60,54 @@
         </nav>
     </header>
     <!--Flavien-->
-
-    <main class="contactLayout">
+    <main>
 
         <div class="onoffswitch" id="interrupteur">
             <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0"
                 checked onclick="myFunction()">
-            <label class="onoffswitch-label" for="myonoffswitch">
+
+          <label class="onoffswitch-label" for="myonoffswitch">
                 <span class="onoffswitch-inner"></span>
                 <span class="onoffswitch-switch"></span>
 
             </label>
         </div>
+      
+        <div class="contactLayout">
+          
+            <h2>Contacte nous</h2><br><br>
+            <p id="tralala">Un commentaire, une critique ou quelque chose que tu aimerais voir sur ce blog? Ecris nous
+                dans
+                ce formulaire.</p><br>
 
-        <h2>Contacte nous</h2><br><br>
-        <p id="tralala">Un commentaire, une critique ou quelque chose que tu aimerais voir sur ce blog? Ecris nous dans
-            ce formulaire.</p><br>
+            <form method="post" action="traitement.js">
 
-        <form method="post" action="traitement.js">
+                <div class="containerForm">
+                    <div class="elementForm">
+                        <p>Ton nom :</p>
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name"><br>
+                    </div>
 
-            <div class="containerForm">
-                <div class="elementForm">
-                    <p>Ton nom :</p>
-                    <label for="name"></label>
-                    <input type="text" name="name" id="name"><br>
+                    <div class="elementForm">
+                        <p>Ton email :</p>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email"><br>
+                    </div>
+
+                    <div class="elementForm">
+                        <p>Ton message :</p>
+                        <label for="msg"></label>
+                        <textarea id="msg" name="msg"></textarea><br>
+                    </div><br>
+
+                    <div class="button">
+                        <button type="submit">Envoyer</button>
+                    </div> <br>
                 </div>
 
-                <div class="elementForm">
-                    <p>Ton email :</p>
-                    <label for="email"></label>
-                    <input type="email" name="email" id="email"><br>
-                </div>
-
-                <div class="elementForm">
-                    <p>Ton message :</p>
-                    <label for="msg"></label>
-                    <textarea id="msg" name="msg"></textarea><br>
-                </div><br>
-
-                <div class="button">
-                    <button type="submit">Envoyer</button>
-                </div> <br>
-            </div>
-
-        </form>
+            </form>
+        </div>
     </main>
 
     <footer>
