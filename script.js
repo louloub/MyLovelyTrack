@@ -61,4 +61,4 @@ function switchTheme() {
 
 
 // End dark Theme + local storage 
-
+}
