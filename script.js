@@ -1,3 +1,26 @@
+// START HAROLD - script for LOGIN BUTTON
+let isPopupIsDisplayed = false; // variable for check if popup is display
+
+function openForm() {
+    switch(isPopupIsDisplayed){
+        case true : // Popup is alwready display, i close it
+            document.getElementById("myForm").style.display = "none";
+            isPopupIsDisplayed = false;  
+            break;  
+        case false : // Popup is not displayed, i open it
+            document.getElementById("myForm").style.display = "block";
+            isPopupIsDisplayed = true;  
+            break;  
+        default : console.log("i'm in default switch onpenForm")         
+    }
+}
+
+// Button "fermer" into popup
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+// END HAROLD - script for LOGIN BUTTON
+
 const buttonLDorElement = document.getElementById("buttonLivreDor");
 const inputLivreDor = document.getElementById("msgLiDor");
 const nomLivreDor = document.getElementById("nom");
@@ -20,30 +43,7 @@ buttonLDorElement.addEventListener("click", function () {
   newParagrapheElement.style.borderRadius = "10px";
 });
 
-// START HAROLD - script for LOGIN BUTTON
 
-let isPopupIsDisplayed = false; // variable for check if popup is display
-
-function openForm() {
-    switch(isPopupIsDisplayed){
-        case true : // Popup is alwready display, i close it
-            document.getElementById("myForm").style.display = "none";
-            isPopupIsDisplayed = false;  
-            break;  
-        case false : // Popup is not displayed, i open it
-            document.getElementById("myForm").style.display = "block";
-            isPopupIsDisplayed = true;  
-            break;  
-        default : console.log("i'm in default switch onpenForm")         
-    }
-}
-
-// Button "fermer" into popup
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-
-// END HAROLD - script for LOGIN BUTTON
 
 // Start dark Theme + local storage
 
