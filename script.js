@@ -12,14 +12,17 @@ function addComment() {
      mainElement.appendChild(newParagrapheElement);
      newParagrapheElement.innerHTML = nomLivreDor.value + ' a commenté: ' + inputLivreDor.value;
      newParagrapheElement.style.padding = "12px";
-     const commentsString = localStorage.getItem('comments')
-     const comments = commentsString ? JSON.parse(commentsString) : []
-     const comment = {
+
+     const commentsString = localStorage.getItem('comments')   // create variable to store the comments from the input
+     const comments = commentsString ? JSON.parse(commentsString) : [];  // create variable to return an object from a string
+     const comment = {                      //create an object with the name of the author and the text of the comment 
        author: nomLivreDor.value,
-       message: inputLivreDor.value
+       message: inputLivreDor.value 
      }
-     comments.push(comment);
-     localStorage.setItem('comments', JSON.stringify(comments))
+     comments.push(comment); // add the comment in the object created above
+     localStorage.setItem('comments', JSON.stringify(comments)) //converts in string the object and store it in the key "comments"
+
+     const comment
   });
 }
 
