@@ -1,50 +1,57 @@
 /*Flav*/
 
-@media screen and (min-width: 768px) {
-    #navMobile {
-        display: none;
-    }
-    nav {
-        height: auto;
-    }
-    #titleNav {
-        display: none;
-    }
-    #logoSite {
-        max-width: 70%;
-        max-height: 70%;
-        padding-bottom: 1.4rem;
-    }
-    .menu-checkbox {
-        display: none;
-    }
-    .menu-toggle {
-        display: none;
-    }
-    .logo {
-        display: none;
-    }
-    h1 {
-        font-size: 2rem;
-        margin: 1rem;
-    }
-    .nav-wrapper {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .menu {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    li {
-        padding: 1rem;
-        margin-bottom: 0.5rem;
-        font-size: 1.2;
-    }
-    #TitleRemove {
-        display: none;
-    }
+@media screen and (min-width: 768px){
+
+#navMobile{
+    display: none;
+}
+
+nav{
+    height: auto;
+}
+
+#titleNav{
+    display: none;
+}
+
+#logoSite{
+    max-width: 70%;
+    max-height: 70%;
+    padding-bottom: 1.4rem;
+}
+
+.menu-checkbox{
+    display: none;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.logo{
+    display: none;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.nav-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+li{
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2;
 }
 
 /*Flav*/
@@ -197,6 +204,5 @@ figcaption {
 }
 
 /* End actus Lisa-Lou */
-
 
 

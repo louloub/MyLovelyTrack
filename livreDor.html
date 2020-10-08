@@ -24,28 +24,28 @@
     <header>
         <!-- Harold Start popup -->
         <button class="open-button" onclick="openForm()">
-                <img class="open-button-img" src="src/account.png"/>
-                <span class="open-button-texte">Login</span>
-            </button>
-    
-            <div class="form-popup" id="myForm">
-                <form action="/action_page.php" class="form-container">
-                    <h1 class="loginButtonText">Login</h1>
-                
-                    <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="Entrer votre Email" name="email" required>
-    
-                    <label for="psw"><b>Mot de passe</b></label>
-                    <input type="password" placeholder="Enter votre mot de passe" name="psw" required>
-    
-                    <button type="submit" class="btn">Login</button>
-                    <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
-                </form>
-            </div>
+            <img class="open-button-img" src="src/account.png" />
+            <span class="open-button-texte">Login</span>
+        </button>
+
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1 class="loginButtonText">Login</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Entrer votre Email" name="email" required>
+
+                <label for="psw"><b>Mot de passe</b></label>
+                <input type="password" placeholder="Enter votre mot de passe" name="psw" required>
+
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
+            </form>
+        </div>
         <!-- Harold End popup -->
         <!--Flavien-->
         <nav id="navDesktop">
-            <img src="src/lovelyTrack.png" alt="Logo et nom du site" id="logoSite">
+            <a href="accueil.html"><img src="src/lovelyTrack.png" alt="Logo et nom du site" id="logoSite"></a>
             <div class="nav-wrapper" id="nav-wrapper">
                 <ul class="menu" id="listDer">
                     <li id="firstLi"><a href="accueil.html">Accueil</a></li>
@@ -85,41 +85,43 @@
     <main>
 
         <div class="onoffswitch" id="interrupteur">
-            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked onclick="switchTheme()">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0"
+                checked onclick="switchTheme()">
             <label class="onoffswitch-label" for="myonoffswitch">
-              <span class="onoffswitch-inner"></span>
-              <span class="onoffswitch-switch"></span>
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
             </label>
-          </div>
+        </div>
 
-    <div id="livredor">
-        <h2>Livre d'Or</h2><br><br>
-        <p>Des choses que vous avez adorées ou detestées voir sur notre blog? Une critique sur un article ou un
-            rédacteur?
-            C'est ici que ca se passe &#128540 !
-        </p>
+        <div id="livredor">
+            <h2>Livre d'Or</h2><br><br>
+            <p>Des choses que vous avez adorées ou detestées voir sur notre blog? Une critique sur un article ou un
+                rédacteur?
+                C'est ici que ca se passe &#128540 !
+            </p>
 
-        <form method="post" action="traitement.js" id="form2">
+            <form method="post" action="traitement.js" id="form2">
 
-            <div class="elementForm">
-                <p>Ton nom :</p>
-                <label for="name"></label>
-                <input type="text" name="name" id="nom"><br><br>
+                <div class="elementForm">
+                    <p>Ton nom :</p>
+                    <label for="name"></label>
+                    <input type="text" name="name" id="nom"><br><br>
 
 
-                <p>Ton message :</p>
-                <label for="msg"></label>
-                <textarea id="msgLiDor" name="msg"></textarea><br>
-            </div><br>
+                    <p>Ton message :</p>
+                    <label for="msg"></label>
+                    <textarea id="msgLiDor" name="msg"></textarea><br>
+                </div><br>
 
-            <div>
-                <button type="button" id="buttonLivreDor" class="buttonContactLivreOr">Envoyer</button>
-            </div> <br>
-            </div>
+                <div>
+                    <button type="button" id="buttonLivreDor" class="buttonContactLivreOr">Envoyer</button>
+                </div> <br>
+        </div>
         </form>
         </div>
     </div>
     <h3>Vos commentaires:</h3>
+
     </main>
 
 

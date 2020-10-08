@@ -72,7 +72,7 @@
     /* Button used to open the contact form - fixed at the bottom of the page */    
     .open-button {
         border-radius: 50px !important;
-        top: 90vh !important; /* % de la page */
+        top: 90vh !important; /* vh = % de la page */
         bottom: 23px !important;
         height: 45px !important;
         width: 45px !important;
