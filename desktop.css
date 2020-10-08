@@ -54,10 +54,6 @@ li{
     font-size: 1.2;
 }
 
-#TitleRemove{
-    display: none;
-}
-}  
 /*Flav*/
 
 /*Jess*/
@@ -79,7 +75,7 @@ h2 {
     font-weight: bold;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,12 +93,12 @@ h2 {
     display: flex;
     flex-direction: row-reverse;
 }
+
 /*Jess*/
 
 /* Start Footer Lisa-Lou */
 
 @media only screen and (min-width: 768px) {
-
     footer {
         display: flex;
         flex-direction: row;
@@ -128,7 +124,7 @@ h2 {
 
 /* Start actus Lisa-Lou */
 
-figure > img {
+figure>img {
     width: 100%;
 }
 
@@ -139,23 +135,23 @@ figure > img {
     text-align: center;
 }
 
-.header-article > h2 {
+.header-article>h2 {
     font-size: 3rem;
     font-weight: bold;
     padding: 1rem;
 }
 
-article > p {
+article>p {
     text-align: center;
     padding: 1.5rem;
 }
 
-.header-article > h3 {
+.header-article>h3 {
     font-size: 2rem;
     padding: 1rem;
 }
 
-.header-article > h4 {
+.header-article>h4 {
     font-size: 1rem;
     padding: 1.5rem;
     border-bottom: solid var(--text-color);
@@ -171,7 +167,7 @@ figcaption {
     padding: 3em;
 }
 
-.article-layout-image-right > p {
+.article-layout-image-right>p {
     text-align: start;
     text-align: justify;
 }
@@ -197,7 +193,8 @@ figcaption {
 .logos-socials-article {
     display: flex;
     justify-content: center;
-    padding-bottom: 2rem;;
+    padding-bottom: 2rem;
+    ;
     border-bottom: double var(--text-color);
 }
 
@@ -207,3 +204,5 @@ figcaption {
 }
 
 /* End actus Lisa-Lou */
+
+

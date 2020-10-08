@@ -10,6 +10,7 @@ main {
 :root {
   --background-color: #f8f8ff;
   --text-color: #343333;
+  --box-shaddow: rgba(0, 0, 0, 0.2);
 }
 
 /* End light mode */
@@ -19,6 +20,7 @@ main {
 :root body.dark {
   --background-color: #222222;
   --text-color: #f8f8ff;
+  --box-shaddow: #727070;
 }
 
 /* End dark mode */
@@ -123,6 +125,45 @@ a:active {
 
 /* End Footer Lisa-Lou */
 
+
+/* Start Page Accueil: cards - Lisa-Lou */
+
+.articleImg {
+  max-width: 15rem;
+}
+
+.card-accueil {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 var(--box-shaddow);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* 5px rounded corners */
+}
+
+/* On mouse-over, add a deeper shadow */
+
+.card-accueil:hover {
+  box-shadow: 0 0.5rem 2rem 0 var(--box-shaddow);
+}
+
+/* Add some padding inside the card container */
+
+.card-container {
+  padding: 1rem;
+}
+
+.us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: stretch;
+}
+
+/*End Page Accueil: cards - Lisa-Lou */
+
 /*Flav*/
 
 .buttonContactLivreOr {
@@ -222,20 +263,12 @@ form .button {
   text-align: center;
 }
 
-.aboutusBloc, .us, .LisaLou, .Jessica, .Flavien, .Harold, .textContent {
+.LisaLou, .Jessica, .Flavien, .Harold, .textContent {
   display: flex;
-  padding: 10px 0 40px 0;
+  padding: 1rem;
   align-items: center;
-}
-
-.aboutusBloc {
-  flex-direction: column;
-  width: 100%;
-}
-
-.us {
-  flex-direction: column;
-  align-content: center;
+  height: 30rem;
+  width: 25rem;
 }
 
 .aboutusImg {
@@ -250,11 +283,13 @@ form .button {
 .textContent {
   flex-direction: column;
   padding: 25px;
+  max-width: 10rem;
 }
 
 .aboutUsName {
   padding: 25px;
   font-size: 25px;
+  max-width: 20rem;
 }
 
 .imgCarousselTitle {
@@ -262,6 +297,8 @@ form .button {
   font-size: 2.5rem;
   margin-bottom: 50px;
   margin-top: 15px;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 .inputInPopup{

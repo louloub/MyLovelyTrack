@@ -131,6 +131,7 @@ footer {
 /* Start Actus Lisa-Lou */
 
 @media screen and (max-width: 768px) {
+
     .pic-harold {
         display: none;
     }
@@ -140,5 +141,24 @@ footer {
         text-align: justify;
     }
 
+/* Start Page Accueil: cards - Lisa-Lou */
+
+  .us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: auto;
+  }
+
+
+  .textContent {
+    flex-direction: column;
+    padding: 25px;
+    min-width: 20rem;
+    align-items: center;
+}
+  
+  /*End Page Accueil: cards - Lisa-Lou */
 
 }
+

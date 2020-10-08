@@ -1,3 +1,36 @@
+// Start form in Livre d'Or - Flavien 
+
+const buttonLDorElement = document.getElementById('buttonLivreDor');
+const inputLivreDor = document.getElementById('msgLiDor');
+const nomLivreDor = document.getElementById('nom');
+const mainElement = document.querySelector('#livredor');
+
+function addComment() {
+  buttonLDorElement.addEventListener('click', function () {
+     const newParagrapheElement = document.createElement('p');
+     mainElement.appendChild(newParagrapheElement);
+     newParagrapheElement.innerHTML = nomLivreDor.value + ' a commenté: ' + inputLivreDor.value;
+     newParagrapheElement.style.padding = "12px";
+    newParagrapheElement.style.margin = "5px";
+    newParagrapheElement.style.textAlign = "center";
+    newParagrapheElement.style.border = "1px double black";
+    newParagrapheElement.style.borderRadius = "10px";
+     nomLivreDor.value = "";
+     inputLivreDor.value = "";
+
+     const commentsString = localStorage.getItem('comments')   // create variable to store the comments from the local storage
+     const comments = commentsString ? JSON.parse(commentsString) : [];  // create variable to return an object from a string
+     const comment = {                      //create an object with the name of the author and the text of the comment 
+       author: nomLivreDor.value,
+       message: inputLivreDor.value 
+     }
+     comments.push(comment); // add the comment in the object created above
+     localStorage.setItem('comments', JSON.stringify(comments)) //converts in string the object and store it in the key "comments" 
+  });
+}
+
+// End form in Livre d'Or - Flavien 
+
 // START HAROLD - script for LOGIN BUTTON
 let isPopupIsDisplayed = false; // variable for check if popup is display
 
@@ -20,29 +53,6 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 // END HAROLD - script for LOGIN BUTTON
-
-const buttonLDorElement = document.getElementById("buttonLivreDor");
-const inputLivreDor = document.getElementById("msgLiDor");
-const nomLivreDor = document.getElementById("nom");
-const mainElement = document.querySelector("#livredor");
-
-buttonLDorElement.addEventListener("click", function () {
-  const newParagrapheElement = document.createElement("p");
-  mainElement.appendChild(newParagrapheElement);
-  newParagrapheElement.innerHTML =
-    "- " +
-    nomLivreDor.value +
-    " a commenté: " +
-    "''" +
-    inputLivreDor.value +
-    "''";
-  newParagrapheElement.style.padding = "12px";
-  newParagrapheElement.style.margin = "5px";
-  newParagrapheElement.style.textAlign = "center";
-  newParagrapheElement.style.border = "1px double black";
-  newParagrapheElement.style.borderRadius = "10px";
-});
-
 
 
 // Start dark Theme + local storage
