@@ -5,8 +5,6 @@ const inputLivreDor = document.getElementById('msgLiDor');
 const nomLivreDor = document.getElementById('nom');
 const mainElement = document.querySelector('#livredor');
 
-
-
 function addComment() {
   buttonLDorElement.addEventListener('click', function () {
      const newParagrapheElement = document.createElement('p');

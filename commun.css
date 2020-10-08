@@ -132,6 +132,10 @@ a:active {
 
 /* Start Page Accueil: cards - Lisa-Lou */
 
+.articleImg {
+  max-width: 15rem;
+}
+
 .card-accueil {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 var(--box-shaddow);
@@ -151,8 +155,7 @@ a:active {
 /* Add some padding inside the card container */
 
 .card-container {
-  padding: 2px 16px;
-  max-width: 45rem;
+  padding: 0.5rem;
 }
 
 .us {
@@ -267,8 +270,10 @@ form .button {
 
 .LisaLou, .Jessica, .Flavien, .Harold, .textContent {
   display: flex;
-  padding: 10px 0 40px 0;
+  padding: 1rem;
   align-items: center;
+  height: 30rem;
+  width: 25rem;
 }
 
 .aboutusImg {
@@ -283,11 +288,13 @@ form .button {
 .textContent {
   flex-direction: column;
   padding: 25px;
+  max-width: 10rem;
 }
 
 .aboutUsName {
   padding: 25px;
   font-size: 25px;
+  max-width: 20rem;
 }
 
 .imgCarousselTitle {
@@ -296,6 +303,7 @@ form .button {
   margin-bottom: 50px;
   margin-top: 15px;
   color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 .inputInPopup{
