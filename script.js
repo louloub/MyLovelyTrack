@@ -9,14 +9,20 @@ function addComment() {
   buttonLDorElement.addEventListener('click', function () {
      const newParagrapheElement = document.createElement('p');
      mainElement.appendChild(newParagrapheElement);
-     newParagrapheElement.innerHTML = nomLivreDor.value + ' a commenté: ' + inputLivreDor.value;
-     newParagrapheElement.style.padding = "12px";
-    newParagrapheElement.style.margin = "5px";
-    newParagrapheElement.style.textAlign = "center";
-    newParagrapheElement.style.border = "1px double black";
-    newParagrapheElement.style.borderRadius = "10px";
-     nomLivreDor.value = "";
-     inputLivreDor.value = "";
+     if(nomLivreDor.value !== "" && inputLivreDor.value !== "") {
+      newParagrapheElement.innerHTML = nomLivreDor.value + ' a commenté: ' + inputLivreDor.value;
+      newParagrapheElement.style.padding = "12px";
+      newParagrapheElement.style.margin = "5px";
+      newParagrapheElement.style.textAlign = "center";
+      newParagrapheElement.style.border = "1px double black";
+      newParagrapheElement.style.borderRadius = "10px";
+      nomLivreDor.value = "";
+      inputLivreDor.value = "";
+     }
+     else {
+       alert("Veuillez entrer votre nom et votre commentaire");
+     }
+     
 
      const commentsString = localStorage.getItem('comments')   // create variable to store the comments from the local storage
      const comments = commentsString ? JSON.parse(commentsString) : [];  // create variable to return an object from a string
