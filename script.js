@@ -1,3 +1,4 @@
+// Start form in Livre d'Or - Flavien 
 
 const buttonLDorElement = document.getElementById('buttonLivreDor');
 const inputLivreDor = document.getElementById('msgLiDor');
@@ -9,10 +10,20 @@ function addComment() {
   buttonLDorElement.addEventListener('click', function () {
      const newParagrapheElement = document.createElement('p');
      mainElement.appendChild(newParagrapheElement);
-     newParagrapheElement.innerHTML = '- ' + nomLivreDor.value + ' a commenté: ' + "'" + inputLivreDor.value + "'";
+     newParagrapheElement.innerHTML = nomLivreDor.value + ' a commenté: ' + inputLivreDor.value;
      newParagrapheElement.style.padding = "12px";
+     const commentsString = localStorage.getItem('comments')
+     const comments = commentsString ? JSON.parse(commentsString) : []
+     const comment = {
+       author: nomLivreDor.value,
+       message: inputLivreDor.value
+     }
+     comments.push(comment);
+     localStorage.setItem('comments', JSON.stringify(comments))
   });
 }
+
+// End form in Livre d'Or - Flavien 
 
 
 // START HAROLD - script for LOGIN BUTTON
