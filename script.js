@@ -6,23 +6,24 @@ const nomLivreDor = document.getElementById('nom');
 const mainElement = document.querySelector('#livredor');
 
 
+
 function addComment() {
   buttonLDorElement.addEventListener('click', function () {
      const newParagrapheElement = document.createElement('p');
      mainElement.appendChild(newParagrapheElement);
      newParagrapheElement.innerHTML = nomLivreDor.value + ' a commenté: ' + inputLivreDor.value;
      newParagrapheElement.style.padding = "12px";
+     nomLivreDor.value = "";
+     inputLivreDor.value = "";
 
-     const commentsString = localStorage.getItem('comments')   // create variable to store the comments from the input
+     const commentsString = localStorage.getItem('comments')   // create variable to store the comments from the local storage
      const comments = commentsString ? JSON.parse(commentsString) : [];  // create variable to return an object from a string
      const comment = {                      //create an object with the name of the author and the text of the comment 
        author: nomLivreDor.value,
        message: inputLivreDor.value 
      }
      comments.push(comment); // add the comment in the object created above
-     localStorage.setItem('comments', JSON.stringify(comments)) //converts in string the object and store it in the key "comments"
-
-     const comment
+     localStorage.setItem('comments', JSON.stringify(comments)) //converts in string the object and store it in the key "comments" 
   });
 }
 
