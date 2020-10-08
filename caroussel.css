@@ -10,7 +10,7 @@ html, body {
 }
 
 .carousel-inner {
-    background-color: white;
+    background-color: var(--background-color);;
     position: relative;
     overflow: hidden;
     width: 100%;
