@@ -20,8 +20,6 @@ nav{
     padding-bottom: 1.4rem;
 }
 
-
-
 .menu-checkbox{
     display: none;
 }
@@ -68,12 +66,7 @@ li{
 
 /* Css is same with aboutus.html */
 
-
-
 /* Page Evenements */
-
-
-
 
 /* div {
     align-self: center;
@@ -132,8 +125,6 @@ h2 {
 }
 
 /* End Footer Lisa-Lou */
-
-
 
 /* Start actus Lisa-Lou */
 
@@ -203,7 +194,6 @@ figcaption {
     padding: 0%;
 }
 
-
 .logos-socials-article {
     display: flex;
     justify-content: center;
@@ -215,6 +205,5 @@ figcaption {
     display: flex;
     justify-content: center;
 }
-
 
 /* End actus Lisa-Lou */
