@@ -1,3 +1,4 @@
+
 main {
   min-height: 100vh;
   margin-right: 10%;
@@ -10,7 +11,6 @@ main {
 :root {
   --background-color: #f8f8ff;
   --text-color: #343333;
-  --box-shaddow: rgba(0, 0, 0, 0.2);
 }
 
 /* End light mode */
@@ -20,7 +20,6 @@ main {
 :root body.dark {
   --background-color: #222222;
   --text-color: #f8f8ff;
-  --box-shaddow: #727070;
 }
 
 /* End dark mode */
@@ -36,11 +35,13 @@ h2 {
 input {
   background-color: #ededed;
   border: 0.7px solid grey;
+  ;
 }
 
 textarea {
   background-color: #ededed;
   border: 0.7px solid grey;
+  ;
 }
 
 /* fonts */
@@ -50,13 +51,11 @@ textarea {
   src: url("src/helveticaneue-roman.ttf");
 }
 
-h1,
-h1 > a {
-  font-family: "Bebas Neue", cursive;
+h1, h1>a {
+  font-family: 'Bebas Neue', cursive;
 }
 
-a,
-#searchLi {
+a, #searchLi {
   font-family: fontContent;
   src: url("src/helveticaneue-roman.ttf");
   line-height: normal;
@@ -65,11 +64,7 @@ a,
   color: #343333;
 }
 
-h2,
-h3,
-h4,
-.agenda-link,
-.article-link {
+h2, h3, h4, .agenda-link, .article-link {
   font-family: fontContent;
   src: url("src/helveticaneue-roman.ttf");
   line-height: normal;
@@ -92,7 +87,7 @@ p {
   text-align: justify;
 }
 
-#plusDarticles {
+#plusDarticles{
   text-align: center;
 }
 
@@ -148,13 +143,17 @@ a:active {
 /* On mouse-over, add a deeper shadow */
 
 .card-accueil:hover {
-  box-shadow: 0 0.5rem 2rem 0 var(--box-shaddow);
+  box-shadow: 0 8px 16px 0 rgba(255, 206, 106, 1);
 }
 
 /* Add some padding inside the card container */
 
 .card-container {
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 
 .us {
@@ -165,14 +164,14 @@ a:active {
   align-content: stretch;
 }
 
-/*End Page Accueil: cards - Lisa-Lou */
+/* End Page Accueil: cards - Lisa-Lou */
 
 /*Flav*/
 
 .buttonContactLivreOr {
-  color: #ffce6a;
+  color: #FFCE6A;
   font-weight: bold;
-  background-color: #ff6d6a;
+  background-color: #FF6D6A;
   margin: 0em;
   padding: 8px 15px;
   border-radius: 20px;
@@ -180,15 +179,15 @@ a:active {
   margin-left: 60%;
 }
 
-body {
-  font-family: "Lusitana", serif;
+body{
+  font-family: 'Lusitana', serif;
   font-size: 1.1rem;
 }
 
 nav {
   padding: 1.5rem 0 0 0;
   text-align: center;
-  background-color: #ffce6a;
+  background-color: #FFCE6A;
   border-radius: 10px;
 }
 
@@ -254,7 +253,7 @@ form .button {
   text-align: center;
 }
 
-#tralala {
+#tralala{
   text-align: center;
 }
 
@@ -266,16 +265,20 @@ form .button {
   text-align: center;
 }
 
-.LisaLou,
-.Jessica,
-.Flavien,
-.Harold,
-.textContent {
+.aboutusBloc, .us, .LisaLou, .Jessica, .Flavien, .Harold, .textContent {
   display: flex;
-  padding: 1rem;
+  padding: 10px 0 40px 0;
   align-items: center;
-  height: 30rem;
-  width: 25rem;
+}
+
+.aboutusBloc {
+  flex-direction: column;
+  width: 100%;
+}
+
+.us {
+  flex-direction: column;
+  align-content: center;
 }
 
 .aboutusImg {
@@ -290,13 +293,11 @@ form .button {
 .textContent {
   flex-direction: column;
   padding: 25px;
-  max-width: 10rem;
 }
 
 .aboutUsName {
   padding: 25px;
   font-size: 25px;
-  max-width: 20rem;
 }
 
 .imgCarousselTitle {
@@ -308,7 +309,7 @@ form .button {
   background-color: var(--background-color);
 }
 
-.inputInPopup {
+.inputInPopup{
   padding: 16px 20px !important;
   width: 86% !important;
 }
@@ -347,7 +348,7 @@ form .button {
 }
 
 .calendar tbody td:hover {
-  border: 2px solid #ffce6a;
+  border: 2px solid #FFCE6A;
 }
 
 .calendar td {
@@ -361,18 +362,16 @@ form .button {
   color: var(--text-color);
 }
 
-.calendar .prev-month,
-.calendar .next-month {
+.calendar .prev-month, .calendar .next-month {
   color: #cbd1d2;
 }
 
-.calendar .prev-month:hover,
-.calendar .next-month:hover {
+.calendar .prev-month:hover, .calendar .next-month:hover {
   border: 2px solid #cbd1d2;
 }
 
 .current-day {
-  background: #ffce6a;
+  background: #FFCE6A;
   color: #f9f9f9;
 }
 
@@ -382,29 +381,28 @@ form .button {
 }
 
 .event:after {
-  background: #ffce6a;
+  background: #FFCE6A;
   border-radius: 50%;
-  bottom: 0.5em;
+  bottom: .5em;
   display: block;
-  content: "";
-  height: 0.5em;
+  content: '';
+  height: .5em;
   left: 50%;
-  margin: -0.25em 0 0 -0.25em;
+  margin: -.25em 0 0 -.25em;
   position: absolute;
-  width: 0.5em;
+  width: .5em;
 }
 
 .event.current-day:after {
   background: #f9f9f9;
 }
 
-.btn-prev,
-.btn-next {
+.btn-prev, .btn-next {
   border: 2px solid #cbd1d2;
   border-radius: 50%;
   color: #cbd1d2;
   height: 2em;
-  font-size: 0.75em;
+  font-size: .75em;
   line-height: 2em;
   margin: -1em;
   position: absolute;
@@ -412,8 +410,7 @@ form .button {
   width: 2em;
 }
 
-.btn-prev:hover,
-.btn-next:hover {
+.btn-prev:hover, .btn-next:hover {
   background: #cbd1d2;
   color: #f9f9f9;
 }
@@ -460,8 +457,7 @@ form .button {
   transition: margin 0.3s ease-in 0s;
 }
 
-.onoffswitch-inner:before,
-.onoffswitch-inner:after {
+.onoffswitch-inner:before, .onoffswitch-inner:after {
   display: block;
   float: left;
   width: 50%;
@@ -478,14 +474,14 @@ form .button {
 .onoffswitch-inner:before {
   content: "Light";
   padding-left: 10px;
-  background-color: #ffce6a;
-  color: #ffffff;
+  background-color: #FFCE6A;
+  color: #FFFFFF;
 }
 
 .onoffswitch-inner:after {
   content: "Dark";
   padding-right: 10px;
-  background-color: #eeeeee;
+  background-color: #EEEEEE;
   color: #999999;
   text-align: right;
 }
@@ -494,7 +490,7 @@ form .button {
   display: block;
   width: 18px;
   margin: 6px;
-  background: #ffffff;
+  background: #FFFFFF;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -504,11 +500,11 @@ form .button {
   transition: all 0.3s ease-in 0s;
 }
 
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
   margin-left: 0;
 }
 
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
   right: 0px;
 }
 
