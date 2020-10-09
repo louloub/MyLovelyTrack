@@ -36,13 +36,11 @@ h2 {
 input {
   background-color: #ededed;
   border: 0.7px solid grey;
-  ;
 }
 
 textarea {
   background-color: #ededed;
   border: 0.7px solid grey;
-  ;
 }
 
 /* fonts */
@@ -52,11 +50,13 @@ textarea {
   src: url("src/helveticaneue-roman.ttf");
 }
 
-h1, h1>a {
-  font-family: 'Bebas Neue', cursive;
+h1,
+h1 > a {
+  font-family: "Bebas Neue", cursive;
 }
 
-a, #searchLi {
+a,
+#searchLi {
   font-family: fontContent;
   src: url("src/helveticaneue-roman.ttf");
   line-height: normal;
@@ -65,7 +65,11 @@ a, #searchLi {
   color: #343333;
 }
 
-h2, h3, h4, .agenda-link, .article-link {
+h2,
+h3,
+h4,
+.agenda-link,
+.article-link {
   font-family: fontContent;
   src: url("src/helveticaneue-roman.ttf");
   line-height: normal;
@@ -88,7 +92,7 @@ p {
   text-align: justify;
 }
 
-#plusDarticles{
+#plusDarticles {
   text-align: center;
 }
 
@@ -124,7 +128,6 @@ a:active {
 }
 
 /* End Footer Lisa-Lou */
-
 
 /* Start Page Accueil: cards - Lisa-Lou */
 
@@ -167,9 +170,9 @@ a:active {
 /*Flav*/
 
 .buttonContactLivreOr {
-  color: #FFCE6A;
+  color: #ffce6a;
   font-weight: bold;
-  background-color: #FF6D6A;
+  background-color: #ff6d6a;
   margin: 0em;
   padding: 8px 15px;
   border-radius: 20px;
@@ -177,15 +180,15 @@ a:active {
   margin-left: 60%;
 }
 
-body{
-  font-family: 'Lusitana', serif;
+body {
+  font-family: "Lusitana", serif;
   font-size: 1.1rem;
 }
 
 nav {
   padding: 1.5rem 0 0 0;
   text-align: center;
-  background-color: #FFCE6A;
+  background-color: #ffce6a;
   border-radius: 10px;
 }
 
@@ -251,7 +254,7 @@ form .button {
   text-align: center;
 }
 
-#tralala{
+#tralala {
   text-align: center;
 }
 
@@ -263,7 +266,11 @@ form .button {
   text-align: center;
 }
 
-.LisaLou, .Jessica, .Flavien, .Harold, .textContent {
+.LisaLou,
+.Jessica,
+.Flavien,
+.Harold,
+.textContent {
   display: flex;
   padding: 1rem;
   align-items: center;
@@ -301,7 +308,7 @@ form .button {
   background-color: var(--background-color);
 }
 
-.inputInPopup{
+.inputInPopup {
   padding: 16px 20px !important;
   width: 86% !important;
 }
@@ -340,7 +347,7 @@ form .button {
 }
 
 .calendar tbody td:hover {
-  border: 2px solid #FFCE6A;
+  border: 2px solid #ffce6a;
 }
 
 .calendar td {
@@ -354,16 +361,18 @@ form .button {
   color: var(--text-color);
 }
 
-.calendar .prev-month, .calendar .next-month {
+.calendar .prev-month,
+.calendar .next-month {
   color: #cbd1d2;
 }
 
-.calendar .prev-month:hover, .calendar .next-month:hover {
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
   border: 2px solid #cbd1d2;
 }
 
 .current-day {
-  background: #FFCE6A;
+  background: #ffce6a;
   color: #f9f9f9;
 }
 
@@ -373,28 +382,29 @@ form .button {
 }
 
 .event:after {
-  background: #FFCE6A;
+  background: #ffce6a;
   border-radius: 50%;
-  bottom: .5em;
+  bottom: 0.5em;
   display: block;
-  content: '';
-  height: .5em;
+  content: "";
+  height: 0.5em;
   left: 50%;
-  margin: -.25em 0 0 -.25em;
+  margin: -0.25em 0 0 -0.25em;
   position: absolute;
-  width: .5em;
+  width: 0.5em;
 }
 
 .event.current-day:after {
   background: #f9f9f9;
 }
 
-.btn-prev, .btn-next {
+.btn-prev,
+.btn-next {
   border: 2px solid #cbd1d2;
   border-radius: 50%;
   color: #cbd1d2;
   height: 2em;
-  font-size: .75em;
+  font-size: 0.75em;
   line-height: 2em;
   margin: -1em;
   position: absolute;
@@ -402,7 +412,8 @@ form .button {
   width: 2em;
 }
 
-.btn-prev:hover, .btn-next:hover {
+.btn-prev:hover,
+.btn-next:hover {
   background: #cbd1d2;
   color: #f9f9f9;
 }
@@ -449,7 +460,8 @@ form .button {
   transition: margin 0.3s ease-in 0s;
 }
 
-.onoffswitch-inner:before, .onoffswitch-inner:after {
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
   display: block;
   float: left;
   width: 50%;
@@ -466,14 +478,14 @@ form .button {
 .onoffswitch-inner:before {
   content: "Light";
   padding-left: 10px;
-  background-color: #FFCE6A;
-  color: #FFFFFF;
+  background-color: #ffce6a;
+  color: #ffffff;
 }
 
 .onoffswitch-inner:after {
   content: "Dark";
   padding-right: 10px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   color: #999999;
   text-align: right;
 }
@@ -482,7 +494,7 @@ form .button {
   display: block;
   width: 18px;
   margin: 6px;
-  background: #FFFFFF;
+  background: #ffffff;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -492,11 +504,11 @@ form .button {
   transition: all 0.3s ease-in 0s;
 }
 
-.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
   margin-left: 0;
 }
 
-.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
   right: 0px;
 }
 
