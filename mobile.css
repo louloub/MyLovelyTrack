@@ -1,6 +1,63 @@
 /*Flav*/
 
 @media screen and (max-width: 768px) {
+
+    /* test final sprint */
+
+    .find-actu, .find-links {
+        text-align: center;
+    }
+
+    figure>img {
+        width: 100%;
+    }
+
+    .header-article>h3 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    
+    .header-article>h4 {
+        font-size: 1rem;
+        padding: 1.5rem;
+        border-bottom: solid var(--text-color);
+    }
+    
+    figcaption {
+        font-size: 0.3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .article-layout-image-right {
+        display: flex;
+        padding: 0;
+
+    }
+
+    .agenda-link {
+        padding: 0%;
+    }
+    
+    .logos-socials-article {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+        ;
+        border-bottom: double var(--text-color);
+    }
+    
+    .embed-youtube {
+        display: flex;
+        justify-content: center;
+    }
+
+    article p {
+        text-align: justify;
+        padding: 1.5rem;
+    }
+
+    /* end test */
+
     #navDesktop {
         display: none;
     }
