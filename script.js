@@ -7,31 +7,34 @@ const mainElement = document.querySelector('#livredor');
 
 function addComment() {
   buttonLDorElement.addEventListener('click', function () {
-     const newParagrapheElement = document.createElement('p');
-     mainElement.appendChild(newParagrapheElement);
-     if(nomLivreDor.value !== "" && inputLivreDor.value !== "") {
-      newParagrapheElement.innerHTML = nomLivreDor.value + ' a commenté: ' + inputLivreDor.value;
-      newParagrapheElement.style.padding = "12px";
-      newParagrapheElement.style.margin = "5px";
-      newParagrapheElement.style.textAlign = "center";
-      newParagrapheElement.style.border = "1px double black";
-      newParagrapheElement.style.borderRadius = "10px";
-      nomLivreDor.value = "";
-      inputLivreDor.value = "";
-     }
-     else {
-       alert("Veuillez entrer votre nom et votre commentaire");
-     }
+    const str = localStorage.getItem('tructruc')
+    console.log(str)
+
+    //  const newParagrapheElement = document.createElement('p');
+    //  mainElement.appendChild(newParagrapheElement);
+    //  if(nomLivreDor.value !== "" && inputLivreDor.value !== "") {
+    //   newParagrapheElement.innerHTML = nomLivreDor.value + ' a commenté: ' + inputLivreDor.value;
+    //   newParagrapheElement.style.padding = "12px";
+    //   newParagrapheElement.style.margin = "5px";
+    //   newParagrapheElement.style.textAlign = "center";
+    //   newParagrapheElement.style.border = "1px double black";
+    //   newParagrapheElement.style.borderRadius = "10px";
+    //   nomLivreDor.value = "";
+    //   inputLivreDor.value = "";
+    //  }
+    //  else {
+    //    alert("Veuillez entrer votre nom et votre commentaire");
+    //  }
      
 
-     const commentsString = localStorage.getItem('comments')   // create variable to store the comments from the local storage
-     const comments = commentsString ? JSON.parse(commentsString) : [];  // create variable to return an object from a string
-     const comment = {                      //create an object with the name of the author and the text of the comment 
-       author: nomLivreDor.value,
-       message: inputLivreDor.value 
-     }
-     comments.push(comment); // add the comment in the object created above
-     localStorage.setItem('comments', JSON.stringify(comments)) //converts in string the object and store it in the key "comments" 
+    //  const commentsString = localStorage.getItem('comments')   // create variable to store the comments from the local storage
+    //  const comments = commentsString ? JSON.parse(commentsString) : [];  // create variable to return an object from a string
+    //  const comment = {                      //create an object with the name of the author and the text of the comment 
+    //    author: nomLivreDor.value,
+    //    message: inputLivreDor.value 
+    //  }
+    //  comments.push(comment); // add the comment in the object created above
+    //  localStorage.setItem('comments', JSON.stringify(comments)) //converts in string the object and store it in the key "comments" 
   });
 }
 
